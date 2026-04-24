@@ -1,10 +1,12 @@
 # 🌟 Awesome Dynamic Scene Reconstruction & 3DGS Researchers
 
-A curated database of top-tier Lab Directors, Industry Institutions, and Principal Investigators (PIs) focusing specifically on **Dynamic Scene Reconstruction**, **4D Gaussian Splatting (3DGS)**, and **Deformable/Driving Environments**.
+A curated database of top-tier Lab Directors, Industry Institutions, and Principal Investigators (PIs) focusing specifically on **Dynamic Scene Reconstruction**, **4D Gaussian Splatting (3DGS)**, **Dynamic View Synthesis**, and **Deformable/Driving Environments**.
+
+*Note: This list highlights leaders strongly associated with the DynaVis (Dynamic Scene Reconstruction) community, including top-venue works across NVIDIA, ByteDance, and elite academic labs.*
 
 ## 📑 Table of Contents
 - [🟢 Dynamic & 4D Scene Reconstruction](#-dynamic--4d-scene-reconstruction)
-- [🏢 Important Industry Institutions (NVIDIA, ByteDance)](#-important-industry-institutions)
+- [🏢 Important Industry Institutions (NVIDIA, ByteDance, Meta)](#-important-industry-institutions)
 - [🏫 Powerful Academic Research Teams](#-powerful-academic-research-teams)
 
 ---
@@ -12,42 +14,46 @@ A curated database of top-tier Lab Directors, Industry Institutions, and Princip
 ## 🟢 Dynamic & 4D Scene Reconstruction
 *Key researchers and lead authors focusing on deformable objects, 4D urban environments, autonomous driving simulation, and complex dynamic tracking.*
 
-| Researcher | Institution | Specialization | Scholar | Latest Highlight (2025/2026) |
+| Researcher | Institution | Specialization | Scholar | Latest Highlight / Key Project |
 |:---|:---|:---|:---:|:---|
 | **Yiyi Liao** | Zhejiang University | 4D Urban Scene Synthesis (EVolSplat4D) | [🎓 Scholar](https://scholar.google.com/scholar?q=Yiyi+Liao) | *EVolSplat4D: Volume-based GS for 4D Urban Scenes* |
 | **Hao Zhao** | Tsinghua Univ. (AIR) | Dynamic Driving Scenes using Unposed Images | [🎓 Scholar](https://scholar.google.com/scholar?q=Hao+Zhao) | *DGGT: Feedforward 4D Reconstruction of Driving* |
+| **Tianzhu Zhang** | USTC | Monocular dynamic scenes, 3D motion learning | [🎓 Scholar](https://scholar.google.com/scholar?q=Tianzhu+Zhang) | *ReFlow: Self-correcting 3D motion learning* |
+| **Fatma Güney** | Koç University | Neural fields, human behavior modeling | [🎓 Scholar](https://scholar.google.com/scholar?q=Fatma+Güney) | *DynaVis Invited Speaker* |
 | **Jonathon Luiten** | MPI / Cornell | Dynamic 3DGS, Persistent Tracking | [🎓 Scholar](https://scholar.google.com/scholar?q=Jonathon+Luiten) | *Dynamic 3D Gaussians* |
-| **Angjoo Kanazawa** | UC Berkeley (KAIR) | Dynamic NeRF, Plenoxels, Wild Scenes | [🎓 Scholar](https://scholar.google.com/scholar?q=Angjoo+Kanazawa) | *Dynamic Scene Reconstruction* |
-| **Dan Xu** | HKUST | Dense Flow & Unified Neural Representations | [🎓 Scholar](https://scholar.google.com/scholar?q=Dan+Xu) | *Flow-NeRF: Joint Learning of Geometry & Flow* |
+| **Angjoo Kanazawa** | UC Berkeley (KAIR) | Dynamic NeRF, Plenoxels, Wild Scenes | [🎓 Scholar](https://scholar.google.com/scholar?q=Angjoo+Kanazawa) | *Dynamic Scene Reconstruction in the Wild* |
+| **Yu-Wing Tai** | Dartmouth | Streaming dynamic scene reconstruction | [🎓 Scholar](https://scholar.google.com/scholar?q=Yu-Wing+Tai) | *Point4Cast: Forecasting & Reconstruction* |
 | **Yue Wang** | USC / MIT | Physics-Informed Fluid/Scene Simulation | [🎓 Scholar](https://scholar.google.com/scholar?q=Yue+Wang) | *Implicit Physics Model for Fluid Simulation* |
 
 ---
 
 ## 🏢 Important Industry Institutions
-*The most powerful corporate research groups driving real-time 3D reconstruction, generative 4D scenes, and autonomous driving simulation.*
+*The most powerful corporate research groups driving real-time 4D view synthesis, dynamic driving simulation, and feed-forward 4D Gaussians.*
 
-| Company | Key Director / Lead | Focus Area | Scholar | X (Twitter) |
+| Company | Key Director / Lead | Focus Area | Scholar | Key Projects |
 |:---|:---|:---|:---:|:---:|
-| **NVIDIA Research** | Sanja Fidler | VP of AI; 3D Assets for Autonomous Driving | [🎓 Scholar](https://scholar.google.com/scholar?q=Sanja+Fidler) | [🐦 X](https://twitter.com/FidlerSanja) |
-| **NVIDIA Research** | Ming-Yu Liu | Generative 3D, Dynamic Scene Editing | [🎓 Scholar](https://scholar.google.com/scholar?q=Ming-Yu+Liu) |[🐦 X](https://twitter.com/mingyuliu82) |
-| **NVIDIA Research** | Thomas Müller | Core rendering optimization (Instant NGP) | [🎓 Scholar](https://scholar.google.com/scholar?q=Thomas+Müller) | [🐦 X](https://twitter.com/tom94_) |
-| **ByteDance** | Hao Ouyang | Text-to-3D, Generative Dynamic Scenes | [🎓 Scholar](https://scholar.google.com/scholar?q=Hao+Ouyang) | [🐦 X](https://twitter.com/OuyangHao_) |
-| **ByteDance** | Jiawei Ren | Autonomous Driving Assets, High-fidelity 3D | [🎓 Scholar](https://scholar.google.com/scholar?q=Jiawei+Ren) | [🐦 X](https://twitter.com/jiaweiren11) |
-| **Waymo Research** | Drago Anguelov | Head of Research; Dynamic Driving scenes | [🎓 Scholar](https://scholar.google.com/scholar?q=Drago+Anguelov) | [🐦 X](#) |
-| **Google Research** | Jon Barron | View Synthesis Scaling (Zip-NeRF/3DGS) | [🎓 Scholar](https://scholar.google.com/scholar?q=Jon+Barron) | [🐦 X](https://twitter.com/jon_barron) |
+| **NVIDIA Research (Toronto AI)** | Sanja Fidler | Feed-forward 4D reconstruction, deformation priors | [🎓 Scholar](https://scholar.google.com/scholar?q=Sanja+Fidler) | *BTimer*, *ReMatching* |
+| **NVIDIA Research** | Shalini De Mello | Dynamic driving scenarios, free-viewpoint streaming | [🎓 Scholar](https://scholar.google.com/scholar?q=Shalini+De+Mello) | *EmerNeRF*, *QUEEN* |
+| **NVIDIA Research** | Thomas Müller | Core rendering optimization (Instant NGP) | [🎓 Scholar](https://scholar.google.com/scholar?q=Thomas+Müller) | *Instant NGP* |
+| **ByteDance Seed / Core CV** | Hao Ouyang / Team | Feed-forward 4D view synthesis, trajectory fields | [🎓 Scholar](https://scholar.google.com/scholar?q=Hao+Ouyang) | *MoVieS*, *Trace Anything*, *Seedance* |
+| **ByteDance** | Jiawei Ren | Autonomous Driving Assets, High-fidelity 3D | [🎓 Scholar](https://scholar.google.com/scholar?q=Jiawei+Ren) | *Generative 4D Simulation* |
+| **Meta Reality Labs** | Timur Bagautdinov | Human capture, free-viewpoint telepresence | [🎓 Scholar](https://scholar.google.com/scholar?q=Timur+Bagautdinov) | *Codec Avatars, DynaVis Committee* |
+| **Google Research** | Franziska Mueller | 3D human capture, neural scene understanding | [🎓 Scholar](https://scholar.google.com/scholar?q=Franziska+Mueller) | *DynaVis Committee* |
+| **Waymo Research** | Drago Anguelov | Head of Research; Dynamic Driving scenes | [🎓 Scholar](https://scholar.google.com/scholar?q=Drago+Anguelov) | *Neural Sensor Simulation* |
 
 ---
 
 ## 🏫 Powerful Academic Research Teams
-*World-renowned labs and Principal Investigators (PIs) defining the state-of-the-art in computer vision, motion-aware reconstruction, and dynamic SLAM.*
+*World-renowned labs and Principal Investigators (PIs) defining the state-of-the-art in neural scene representations, motion-aware reconstruction, and dynamic SLAM.*
 
-| PI / Lab Director | Institution / Lab | Specialization | Scholar | Lab / Web |
+| PI / Lab Director | Institution / Lab | Specialization | Scholar | Key Focus / Projects |
 |:---|:---|:---|:---:|:---:|
-| **Gim Hee Lee** | National Univ. of Singapore (CVML) | Motion-Aware Neural Reconstruction | [🎓 Scholar](https://scholar.google.com/scholar?q=Gim+Hee+Lee) | [🌐 Lab](https://cvml.comp.nus.edu.sg/) |
-| **Christian Theobalt** | MPI for Informatics (VCAI) | Dynamic Environments & Relightable Scenes | [🎓 Scholar](https://scholar.google.com/scholar?q=Christian+Theobalt) | [🌐 Lab](https://vcai.mpi-inf.mpg.de/) |
-| **Xiaowei Zhou** | Zhejiang University (MARS) | Dynamic 3DGS, SLAM, FreeTimeGS | [🎓 Scholar](https://scholar.google.com/scholar?q=Xiaowei+Zhou) | [🌐 Lab](https://zju3dv.github.io/) |
-| **Hesheng Wang** | Shanghai Jiao Tong Univ (SJTU) | Incremental 3D Gaussian Scene Graph Mapping | [🎓 Scholar](https://scholar.google.com/scholar?q=Hesheng+Wang) | [🌐 Link](#) |
-| **Matthias Nießner** | TU Munich (Visual Computing) | Large-Scale 3D & Dynamic Parametric Models | [🎓 Scholar](https://scholar.google.com/scholar?q=Matthias+Nießner) | [🌐 Lab](https://niessnerlab.org/) |
-| **Gordon Wetzstein** | Stanford University (CIL) | Dynamic Neural Fields, Computational Imaging| [🎓 Scholar](https://scholar.google.com/scholar?q=Gordon+Wetzstein) |[🌐 Lab](https://www.computationalimaging.org/) |
-| **Siyu Tang** | ETH Zurich (VLG) | Expressive 3DGS, Human-Scene Interaction | [🎓 Scholar](https://scholar.google.com/scholar?q=Siyu+Tang) | [🌐 Lab](https://vlg.inf.ethz.ch/) |
-| **Yebin Liu** | Tsinghua University | 4D Multi-Object / Geometry-Aware Diffusion | [🎓 Scholar](https://scholar.google.com/scholar?q=Yebin+Liu) | [🌐 Lab](http://liuyebin.com/) |
+| **Vincent Sitzmann** | MIT CSAIL | Neural scene representations, 3D/4D world models | [🎓 Scholar](https://scholar.google.com/scholar?q=Vincent+Sitzmann) | Scene Representation Group |
+| **Gerard Pons-Moll** | Univ. of Tübingen / MPII | 3D/4D digitization of humans, human-scene interaction | [🎓 Scholar](https://scholar.google.com/scholar?q=Gerard+Pons-Moll) | Real Virtual Humans Lab |
+| **Xiaowei Zhou & Hujun Bao** | Zhejiang Univ. (ZJU3DV) | Real-time 4D view synthesis, point/grid representations | [🎓 Scholar](https://scholar.google.com/scholar?q=Xiaowei+Zhou) | *4K4D*, *Im4D*, *Neural Body* |
+| **Mike Shou** | National Univ. of Singapore | 4D scene reconstruction, editing, and generation | [🎓 Scholar](https://scholar.google.com/scholar?q=Mike+Zheng+Shou) | *DeVRF*, *HOSNeRF*, *DynVideo-E* |
+| **Gim Hee Lee** | National Univ. of Singapore | Motion-Aware Neural Reconstruction | [🎓 Scholar](https://scholar.google.com/scholar?q=Gim+Hee+Lee) | CVML Lab |
+| **Christian Theobalt** | MPI for Informatics (VCAI) | Dynamic Environments & Relightable Scenes | [🎓 Scholar](https://scholar.google.com/scholar?q=Christian+Theobalt) | VCAI Lab |
+| **Matthias Nießner** | TU Munich | Large-Scale 3D & Dynamic Parametric Models | [🎓 Scholar](https://scholar.google.com/scholar?q=Matthias+Nießner) | Visual Computing Lab |
+| **Gordon Wetzstein** | Stanford University (CIL) | Dynamic Neural Fields, Computational Imaging| [🎓 Scholar](https://scholar.google.com/scholar?q=Gordon+Wetzstein) | Computational Imaging Lab |
+| **Yebin Liu** | Tsinghua University | 4D Multi-Object / Geometry-Aware Diffusion | [🎓 Scholar](https://scholar.google.com/scholar?q=Yebin+Liu) | 4D Human Modeling |
