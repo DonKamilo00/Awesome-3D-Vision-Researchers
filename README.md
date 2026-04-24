@@ -3,8 +3,12 @@
 A curated and strictly classified list of prominent research labs, top-tier academic institutions, and industry powerhouse teams focusing purely on **Dynamic Scene Reconstruction**, **4D Novel View Synthesis**, **Dynamic 3D Gaussian Splatting**, and **4D World Models**.
 
 ## 📑 Table of Contents
-- [Strict Classifications in 4D Vision](#-strict-classifications-in-4d-vision)
-- [Industry Heavyweights & Elite Teams](#-industry-heavyweights--elite-teams)
+-[Strict Classifications in 4D Vision](#-strict-classifications-in-4d-vision)
+- [Industry Heavyweights & Elite Researchers](#-industry-heavyweights--elite-researchers)
+  - [NVIDIA Research](#nvidia-research)
+  - [Meta Reality Labs](#meta-reality-labs-mrl)
+  - [ByteDance AI Lab & PICO](#bytedance-ai-lab--pico)
+  - [Google DeepMind & Research](#google-deepmind--google-research)
 -[Top Academic Institutions & Labs](#-top-academic-institutions--labs)
 - [Key Workshops & Communities](#-key-workshops--communities)
 
@@ -23,46 +27,56 @@ To effectively source leads, research teams and their technologies in this repo 
 
 ---
 
-## 🏢 Industry Heavyweights & Elite Teams
+## 🏢 Industry Heavyweights & Elite Researchers
 
 ### [NVIDIA Research](https://research.nvidia.com/)
-| Team / Division | Key Researchers | Focus Areas & Notable Technologies |
-| :--- | :--- | :--- |
-| **Real-Time Graphics Research** | Aaron Lefohn, Benedikt Bitterli | Redefining photoreal, real-time dynamic computer graphics; combining advanced light simulation with AI. |
-| **Dynamic Media Streaming AI** | Shalini De Mello | Introduced **QUEEN**, an optimized model for fast dynamic scene reconstruction and low-bandwidth, high-quality 3D video streaming. |
-| **High-Fidelity Neural Recon.** | Ming-Yu Liu, Xuan Li | **Neuralangelo** (translating 2D videos to highly detailed 3D structures); combining 3D generation with physics-based simulations. |
+NVIDIA leads the charge in accelerating neural rendering, real-time physics, and dynamic compression.
 
-### [ByteDance AI Lab & PICO](https://research.bytedance.com/)
-| Team / Division | Key Researchers | Focus Areas & Notable Technologies |
-| :--- | :--- | :--- |
-| **PICO MR (Mixed Reality)** | *PICO Perception Team* | Multimodal scene understanding, large-scale 3DGS/NeRF reconstruction, and AIGC-based dynamic scene generation for AR/VR. |
-| **Seed3D Project** | Jianfeng Zhang | Building **4D World Models** (AvatarGen, GP-NeRF) to capture geometry, appearance, temporal dynamics, and physical interactions. |
-| **Core Technologies** | *ByteDance AI Researchers* | **Gen3R** (bridging foundational reconstruction with video diffusion); **MVDream** (multi-view diffusion for high-quality 3D generation). |
+| Researcher | Role & Lab | Focus Area & Notable Tech | Profiles & Links |
+| :--- | :--- | :--- | :--- |
+| **Aaron Lefohn** | VP, Real-Time Graphics | Real-time dynamic graphics, AI combined with ray tracing, ReSTIR. | [Scholar](https://scholar.google.com/scholar?q=Aaron+Lefohn) <br> [X](https://twitter.com/search?q=%22Aaron+Lefohn%22) <br> [NVIDIA Page](https://research.nvidia.com/person/aaron-lefohn) |
+| **Ming-Yu Liu** | VP, LPR & FoundationMotion | **Neuralangelo**, embodied foundation models, 3D/4D translation from 2D videos. | [Scholar](https://scholar.google.com/citations?user=kXkZpeoAAAAJ) <br> [X](https://twitter.com/mingyuliu82) <br> [Personal Page](https://mingyuliu.net/) |
+| **Shalini De Mello** | Principal Research Scientist | **QUEEN** (fast dynamic scene reconstruction), high-fidelity human-centric 4D rendering. | [Scholar](https://scholar.google.com/citations?user=G_R4PgcAAAAJ) <br> [X](https://twitter.com/shalinidemello) <br>[Lab Page](https://research.nvidia.com/person/shalini-de-mello) |
+| **Benedikt Bitterli** | Research Scientist | Photorealistic rendering, complex light transport in dynamic 3D elements. | [Scholar](https://scholar.google.com/citations?user=Xwz7-b8AAAAJ) <br>[X](https://twitter.com/b_bitterli) <br> [Personal Page](https://benedikt-bitterli.me/) |
+| **Ye Yuan** | Staff Research Scientist | 4D embodied AI, physics-based dynamic simulations, learning humanoid skills. | [Scholar](https://scholar.google.com/citations?user=vWp3g8wAAAAJ) <br> [X](https://twitter.com/ye_yuan_) <br> [Personal Page](https://ye-yuan.com/) |
 
 ###[Meta Reality Labs (MRL)](https://research.facebook.com/augmented-reality-virtual-reality/)
-| Team / Division | Key Researchers | Focus Areas & Notable Technologies |
-| :--- | :--- | :--- |
-| **Dynamic Rendering** | Christian Richardt, Peter Kontschieder | High-fidelity novel view synthesis and dynamic reconstruction (e.g., **HyperReel**, Neural Duplex Radiance Fields). |
-| **Deformable Gaussians** | Denis Rozumny | Pre-scanned dynamics; co-authored **DRoPS** (Dynamic 3D Reconstruction of Pre-Scanned Objects) and **Free-Range Gaussians**. |
-| **Text-Guided & Feed-Forward 3D** | Numair Khan | Predicting deformable 3D Gaussian splats from monocular videos; text-guided 4D scene editing. |
+Meta's efforts are geared toward photorealistic teleportation, Codec Avatars, and dynamic room-scale scanning.
+
+| Researcher | Role & Lab | Focus Area & Notable Tech | Profiles & Links |
+| :--- | :--- | :--- | :--- |
+| **Christian Richardt**| Research Scientist | **HyperReel**, high-fidelity 6-DoF view synthesis, dynamic scene multi-view reconstruction. | [Scholar](https://scholar.google.com/citations?user=R9E3BkwAAAAJ) <br> [X](https://twitter.com/c_richardt) <br>[Personal Page](https://richardt.name/) |
+| **Denis Rozumny** | Research Scientist | **DRoPS** (Dynamic 3D Reconstruction of Pre-Scanned Objects), **Free-Range Gaussians**. |[Scholar](https://scholar.google.com/citations?user=jM_cQy8AAAAJ) <br> [X](https://twitter.com/DenisRozumny) <br> [Personal Page](https://denisrozumny.github.io/) |
+| **Peter Hedman** | Senior Staff Research Scientist| Fast and large-scale Neural Radiance Fields, 4D immersive view synthesis. | [Scholar](https://scholar.google.com/citations?user=P3wU8HwAAAAJ) <br> [X](https://twitter.com/peter_hedman) <br> [Personal Page](https://phogzone.com/) |
+| **Ethan Weber** | Sr. AI Research Scientist | Generative world modeling, **Fillerbuster** (multi-view scene completion). |[Scholar](https://scholar.google.com/citations?user=gDMBf_EAAAAJ) <br> [X](https://twitter.com/ethanweber_) <br> [Personal Page](https://ethanweber.me/) |
+
+### [ByteDance AI Lab & PICO](https://research.bytedance.com/)
+Deeply invested in 4D generation and large-scale scene understanding to power AR/VR and TikTok filters.
+
+| Researcher | Role & Lab | Focus Area & Notable Tech | Profiles & Links |
+| :--- | :--- | :--- | :--- |
+| **Jianfeng Zhang** | Research Scientist (Seed3D) | **AvatarGen**, **GP-NeRF**, 4D World Models, physics and temporal dynamic capturing. | [Scholar](https://scholar.google.com/citations?user=qfF28kAAAAAJ) <br> [X](https://twitter.com/jianfengzhang95) <br> [Lab Portal](https://research.bytedance.com/) |
+| **Shichong Peng** | Researcher / Collaborator | Multi-view diffusion for high-quality 3D/4D generation, **MVDream**. | [Scholar](https://scholar.google.com/citations?user=Bf303N8AAAAJ) <br> [X](https://twitter.com/search?q=Shichong+Peng) <br> [Lab Portal](https://research.bytedance.com/) |
 
 ### [Google DeepMind & Google Research](https://deepmind.google/)
-| Team / Division | Affiliation | Focus Areas & Notable Technologies |
-| :--- | :--- | :--- |
-| **D4RT Initiative** | DeepMind | **Dynamic 4D Reconstruction and Tracking:** Solving inverse problems to recover volumetric 3D in motion from flat 2D video sequences. |
-| **DynIBaR** | Google Research & Cornell | Neural Dynamic Image-Based Rendering; generating realistic free-viewpoint renderings from videos with unregulated camera/object motion. |
-| **CAT4D & PhysWorld** | DeepMind | Pushing 4D novel view synthesis (**CAT4D**) and integrating 4D dynamic reconstructions with robotic learning via world modeling (**PhysWorld**). |
+Bridging the gap between raw optical flow tracking and generative video models for 4D perception.
+
+| Researcher | Role & Lab | Focus Area & Notable Tech | Profiles & Links |
+| :--- | :--- | :--- | :--- |
+| **Zhengqi Li** | Staff Research Scientist | **DynIBaR** (Neural Dynamic Image-Based Rendering for unregulated camera/object motion). | [Scholar](https://scholar.google.com/citations?user=zN9yN-IAAAAJ) <br> [X](https://twitter.com/zhengqili1) <br>[Personal Page](https://zhengqili.github.io/) |
+| **Noah Snavely** | Senior Staff Scientist | Phototourism, NeRF foundational tech, structure-from-motion in dynamic environments. | [Scholar](https://scholar.google.com/citations?user=rRMNE8YAAAAJ) <br> [X](https://twitter.com/noahsnavely) <br> [Lab Page](https://www.cs.cornell.edu/~snavely/) |
 
 ---
 
 ## 🏫 Top Academic Institutions & Labs
 
-| Institution | Location | Lab / Group | Key Leaders | Focus Areas & Notable Contributions |
-| :--- | :--- | :--- | :--- | :--- |
-| **Max Planck Institute (MPI)** | 🇩🇪 Germany | Graphics, Vision, & Video Group | Prof. Christian Theobalt | Pioneer in marker-less MoCap; created **NeuS2** (fast neural implicit surface framework for dynamic multi-view videos). |
-| **Brown University** | 🇺🇸 USA | Interactive 3D Vision Lab | Prof. Srinath Sridhar | Object-centric dynamic reconstructions; organizers of the primary 4D World Model conferences. |
-| **Carnegie Mellon Univ. (CMU)** | 🇺🇸 USA | CMU & Fujitsu Research | *Joint Research Team* | Solved 3D scene reconstruction *without camera motion* by adapting Lucas-Kanade optical flow into Dynamic 3DGS warp fields. |
-| **National Univ. of Singapore** | 🇸🇬 Singapore | Show Lab | *Show Lab Researchers*| Multi-modal 4D dynamic human-object-scene reconstruction and editing for robotic perception and VR. |
+| Researcher / Director | Institution & Lab | Focus Area & Notable Tech | Profiles & Links |
+| :--- | :--- | :--- | :--- |
+| **Prof. Christian Theobalt** | **MPI for Informatics** (Graphics, Vision & Video Group) | **NeuS2** (fast neural implicit surface framework), marker-less 4D motion capture. | [Scholar](https://scholar.google.com/citations?user=1H0vSVEAAAAJ) <br> [X](https://twitter.com/search?q=%22Christian+Theobalt%22) <br> [Lab Page](https://gvv.mpi-inf.mpg.de/) |
+| **Prof. Srinath Sridhar** | **Brown University** (Interactive 3D Vision Lab) | Object-centric dynamic reconstructions, key organizer of 4D World Model workshops. | [Scholar](https://scholar.google.com/citations?user=u8YyRncAAAAJ) <br> [X](https://twitter.com/srinathsridhar) <br> [Lab Page](https://ivl.cs.brown.edu/) |
+| **Prof. Angjoo Kanazawa** | **UC Berkeley** (Kanazawa AI Research - KAIR) | Plenoxels, Nerfstudio, capturing dynamic 4D worlds from casual video captures. | [Scholar](https://scholar.google.com/citations?user=sJmE5pQAAAAJ) <br> [X](https://twitter.com/akanazawa) <br> [Lab Page](https://people.eecs.berkeley.edu/~kanazawa/) |
+| **Prof. Tali Dekel** | **Weizmann Institute** (Computer Vision Lab) | Generative AI, 4D tracking, co-authored **DRoPS** (Dynamic Pre-Scanned Object Reconstruction). |[Scholar](https://scholar.google.com/citations?user=oGqj_LgAAAAJ) <br> [X](https://twitter.com/tali_dekel) <br> [Lab Page](https://www.weizmann.ac.il/math/dekel/) |
+| **Prof. Mike Zheng Shou** | **NUS** (Show Lab) | Multi-modal 4D dynamic human-object-scene reconstruction, **MagicVideo**. | [Scholar](https://scholar.google.com/citations?user=h1-3lhoAAAAJ) <br> [X](https://twitter.com/mikezhengshou) <br> [Lab Page](https://showlab.comp.nus.edu.sg/) |
 
 ---
 
