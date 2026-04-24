@@ -1,60 +1,50 @@
 # 🌟 Awesome Dynamic 3DGS & Volumetric Video Labs
 
-A rigorously curated database of Lab Directors, Principal Investigators (PIs), and Industry Teams extracted exclusively from the bibliography of the latest IEEE Survey on Dynamic Scene Reconstruction (2025/2026). 
+A rigorously curated database of Lab Directors, Principal Investigators (PIs), and Industry Teams focused **exclusively on Dynamic Scene Reconstruction and 4D Gaussian Splatting (3DGS)**. 
 
-*Note: Every researcher is verified as a senior author of a state-of-the-art paper in Dynamic 3DGS (4DGS), Volumetric Video Streaming, or Autonomous Driving Gaussians.*
+*Note: This list strictly filters out "one-hit wonders" to highlight only the serial publishers and dedicated hubs continuously driving the state-of-the-art in 4D view synthesis, volumetric video (FVV) streaming, and autonomous driving.*
 
 ## 📑 Table of Contents
-- [🏢 Industry Leaders: NVIDIA, ByteDance, Meta, Baidu, Tencent](#-industry-leaders)
-- [🏫 Academic PIs: Dynamic 3DGS & FVV Streaming](#-academic-pis)
-- [🚗 Academic PIs: Autonomous Driving 3DGS](#-academic-pis-autonomous-driving)
+- [🏢 Industry Leaders: NVIDIA, ByteDance, Meta, Waymo](#-industry-leaders-nvidia-bytedance-meta-waymo)
+- [🏫 Academic PIs: Dedicated Dynamic 3DGS & FVV Hubs](#-academic-pis-dedicated-dynamic-3dgs--fvv-hubs)
+-[🚗 Academic PIs: Autonomous Driving 3DGS](#-academic-pis-autonomous-driving-3dgs)
 
 ---
 
-## 🏢 Industry Leaders
-*Corporate directors and research scientists actively shipping 4D Gaussian Splatting, dynamic driving simulation, and volumetric video compression.*
+## 🏢 Industry Leaders: NVIDIA, ByteDance, Meta, Waymo
+*The specific corporate sub-divisions and tech leads actively shipping real-time 4D Gaussian pipelines, dynamic driving simulators, and trajectory fields.*
 
-| Company | Key Director / Researcher | 3DGS Focus Area | Scholar | Verified IEEE Citation |
+| Company | Key Director / Researcher | 4DGS Focus Area | Scholar | Multiple 4DGS Hits / Key Projects |
 |:---|:---|:---|:---:|:---|
-| **ByteDance** | Qi Tian | Real-time 4D Scene Rendering |[🎓 Scholar](https://scholar.google.com/scholar?q=Qi+Tian+ByteDance) | *4D-GS* [30] |
-| **ByteDance / Google** | Liang-Chieh Chen | Video Reconstruction & Editing | [🎓 Scholar](https://scholar.google.com/scholar?q=Liang-Chieh+Chen) | *Video-3DGS* [34] |
-| **NVIDIA Research** | Wenzheng Chen | Efficient Novel View Synthesis for 4D | [🎓 Scholar](https://scholar.google.com/scholar?q=Wenzheng+Chen) | *4D-Rotor GS* [36] |
-| **Meta Reality Labs** | Lei Xiao & Douglas Lanman | Gaussian Deformation Fields (Real-time) | [🎓 Scholar](https://scholar.google.com/scholar?q=Lei+Xiao+Meta) | *GauFRe* [25] |
-| **Google Research** | Ming-Hsuan Yang | Surrounding Dynamic Driving Scenes | [🎓 Scholar](https://scholar.google.com/scholar?q=Ming-Hsuan+Yang) | *DrivingGaussian* [159] |
-| **Google Research** | Yinda Zhang | Motion Extrapolation & View Synthesis | [🎓 Scholar](https://scholar.google.com/scholar?q=Yinda+Zhang) | *GaussianPrediction*[147] |
-| **Baidu (VIS)** | Jingdong Wang & Errui Ding | Vision-Only Dynamic Driving Simulation | [🎓 Scholar](https://scholar.google.com/scholar?q=Jingdong+Wang) | *VDG (Driving)* [162] |
-| **Tencent / VAST** | Yan-Pei Cao | Sparse-Controlled Gaussian Splatting | [🎓 Scholar](https://scholar.google.com/scholar?q=Yan-Pei+Cao) | *SC-GS* [26] |
-| **Tencent** | Gang Yu | Unbounded Large-Scale Scenes | [🎓 Scholar](https://scholar.google.com/scholar?q=Gang+Yu+Tencent) | *Unbounded-GS* [165] |
-| **Ant Group** | Yujun Shen | Hybrid 3DGS & Mesh Rendering | [🎓 Scholar](https://scholar.google.com/scholar?q=Yujun+Shen) | *GauMesh* [50], *GaussianPrediction* [147] |
+| **ByteDance (Seed / Core CV)** | Hao Ouyang, Jiawei Ren | Text/Video-to-4D, Generative Dynamic Scenes |[🎓 Scholar](https://scholar.google.com/scholar?q=Hao+Ouyang) | *MoVieS*, *Trace Anything*, *TokenGS* |
+| **NVIDIA (Toronto AI Lab)** | Sanja Fidler, Zan Gojcic | Reconstructing Driving Logs & 4D Simulation | [🎓 Scholar](https://scholar.google.com/scholar?q=Sanja+Fidler) | *BTimer*, *ReMatching*, *4D-Rotor GS* |
+| **NVIDIA (Research)** | Shalini De Mello, Thomas Müller | Dynamic Driving & FVV Streaming | [🎓 Scholar](https://scholar.google.com/scholar?q=Shalini+De+Mello) | *EmerNeRF*, *QUEEN*, *Instant NGP* |
+| **Meta Reality Labs** | Timur Bagautdinov, Lei Xiao | Codec Avatars, Gaussian Deformation Fields | [🎓 Scholar](https://scholar.google.com/scholar?q=Lei+Xiao+Meta) | *Codec Avatars*, *GauFRe* |
+| **Waymo Research** | Drago Anguelov | Large-scale Dynamic Driving Scenes | [🎓 Scholar](https://scholar.google.com/scholar?q=Drago+Anguelov) | *Neural Sensor Simulation* |
+| **Luma AI** | Matthew Tancik | Commercial 3DGS & Video-to-3D Engines |[🎓 Scholar](https://scholar.google.com/scholar?q=Matthew+Tancik) | *Nerfstudio*, *Luma 4D Engine* |
 
 ---
 
-## 🏫 Academic PIs: Dynamic 3DGS & FVV Streaming
-*Elite academic lab directors dominating the 3DGS dynamic scene benchmarks and pioneering Volumetric Video (FVV) Streaming.*
+## 🏫 Academic PIs: Dedicated Dynamic 3DGS & FVV Hubs
+*The "Big 4" global academic powerhouses dominating the research output for real-time 4D Gaussians, human-scene tracking, and Volumetric Video Streaming.*
 
-| PI / Lab Director | Institution / Lab | 3DGS Specialization | Scholar | Verified IEEE Citation |
+| PI / Lab Director | Institution / Lab | Primary 3DGS Mandate | Scholar | Multiple 4DGS Hits (Recent) |
 |:---|:---|:---|:---:|:---|
-| **Hao Tang** | Peking University | Dynamic Scene Rendering & Streaming | [🎓 Scholar](https://scholar.google.com/scholar?q=Hao+Tang) | *Lead Author of IEEE Survey* |
-| **Lan Xu & Jingyi Yu** | ShanghaiTech Univ. | FVV Streaming, Dual Gaussians, Mobile V3 | [🎓 Scholar](https://scholar.google.com/scholar?q=Lan+Xu+ShanghaiTech) | *DualGS* [39], *V3*[41], *HiFi4G* [58] |
-| **Wei Xing & Lei Zhao** | Zhejiang University | On-the-fly Training for FVV Streaming |[🎓 Scholar](https://scholar.google.com/scholar?q=Wei+Xing) | *3DGStream* [38] |
-| **Wei Tsang Ooi** | National Univ. of Singapore | Bitrate Allocation & 3DGS Streaming | [🎓 Scholar](https://scholar.google.com/scholar?q=Wei+Tsang+Ooi) | *MGA (Dynamic Networks)*[51] |
-| **Deva Ramanan** | Carnegie Mellon (CMU) | Tracking by Persistent View Synthesis | [🎓 Scholar](https://scholar.google.com/scholar?q=Deva+Ramanan) | *Dynamic 3D Gaussians* [37] |
-| **Baoquan Chen** | Peking University | 4D Rotors for Interpretable Rotation | [🎓 Scholar](https://scholar.google.com/scholar?q=Baoquan+Chen) | *4D-Rotor GS* [36] |
-| **Xinggang Wang** | HUST | 4D Gaussian Splatting Frameworks | [🎓 Scholar](https://scholar.google.com/scholar?q=Xinggang+Wang) | *4D-GS* [30] |
-| **Yao Yao** | Nanjing University | Dual-Domain Deformation (Time/Frequency) | [🎓 Scholar](https://scholar.google.com/scholar?q=Yao+Yao) | *Gaussian-Flow*[27] |
-| **Kostas Daniilidis** | Univ. of Pennsylvania | Neural Motion Factorization | [🎓 Scholar](https://scholar.google.com/scholar?q=Kostas+Daniilidis) | *DynMF* [28] |
-| **Li Zhang** | Fudan University | Photorealistic 4D Representation | [🎓 Scholar](https://scholar.google.com/scholar?q=Li+Zhang+Fudan) | *RealTime4DGS* [35] |
-| **Yebin Liu** | Tsinghua University | Generalizable Pixel-wise 3DGS | [🎓 Scholar](https://scholar.google.com/scholar?q=Yebin+Liu) | *GPS-Gaussian* [31] |
+| **Xiaowei Zhou & Hujun Bao** | Zhejiang Univ. (ZJU3DV/MARS) | Real-time 4D Urban Scenes & Spacetime Tracking | [🎓 Scholar](https://scholar.google.com/scholar?q=Xiaowei+Zhou) | *4K4D*, *Im4D*, *FreeTimeGS*, *Habitat-GS* |
+| **Lan Xu & Jingyi Yu** | ShanghaiTech Univ. (MARS) | Volumetric Video (FVV) Compression & Mobile Streaming | [🎓 Scholar](https://scholar.google.com/scholar?q=Lan+Xu+ShanghaiTech) | *DualGS*, *V3 (Mobile 3DGS)*, *HiFi4G* |
+| **Yebin Liu** | Tsinghua Univ. (4D Human Grp) | 4D Multi-Object Capture & Geometry-Aware Diffusion | [🎓 Scholar](https://scholar.google.com/scholar?q=Yebin+Liu) | *GPS-Gaussian*, *4DEquine*, *GeoDiff4D* |
+| **Mike Zheng Shou** | National Univ. of Singapore | Spatio-temporal Modeling & 4D Video Reconstruction |[🎓 Scholar](https://scholar.google.com/scholar?q=Mike+Zheng+Shou) | *DynVideo-E*, *HOSNeRF*, *DeVRF* |
+| **C. Theobalt & G. Pons-Moll** | MPI for Informatics (VCAI) | Dynamic Environments & Relightable Moving Scenes | [🎓 Scholar](https://scholar.google.com/scholar?q=Christian+Theobalt) | *Relightable 3DGS*, *PhysHead*, *Dynamic 3DGS* |
+| **Hao Tang & Baoquan Chen** | Peking University | Dynamic Scene Rendering & Interpretable 4D Rotors | [🎓 Scholar](https://scholar.google.com/scholar?q=Hao+Tang) | *4D-Rotor GS*, *IEEE Dynamic Scene Survey* |
 
 ---
 
 ## 🚗 Academic PIs: Autonomous Driving 3DGS
-*Specific labs leveraging Dynamic 3DGS for large-scale, unbounded, and street-view autonomous driving simulation.*
+*Labs applying Pure Dynamic 3DGS to large-scale, unbounded, and highly complex moving street scenes.*
 
-| PI / Lab Director | Institution / Lab | Autonomous Driving 3DGS Focus | Scholar | Verified IEEE Citation |
+| PI / Lab Director | Institution / Lab | Autonomous Driving 3DGS Focus | Scholar | Multiple 4DGS Hits (Recent) |
 |:---|:---|:---|:---:|:---|
-| **Xiaowei Zhou & Sida Peng** | Zhejiang University | Dynamic Urban Scenes & Gaussian Hierarchies | [🎓 Scholar](https://scholar.google.com/scholar?q=Xiaowei+Zhou) | *Street Gaussians* [161], *TGH* [52] |
-| **Zhaopeng Cui & Hujun Bao** | Zhejiang University | Key-point Driven Motion Extrapolation | [🎓 Scholar](https://scholar.google.com/scholar?q=Zhaopeng+Cui) | *GaussianPrediction* [147] |
-| **Shanghang Zhang** | Peking University | Self-Supervised Street Gaussians | [🎓 Scholar](https://scholar.google.com/scholar?q=Shanghang+Zhang) | *S3Gaussian*[157] |
-| **W. Zhan, M. Tomizuka, K. Keutzer** | UC Berkeley (MSC Lab) | Autonomous Driving Street Gaussians | [🎓 Scholar](https://scholar.google.com/scholar?q=Wei+Zhan+Berkeley) | *S3Gaussian* [157] |
-| **Junwei Han** | NWPU | Vision-Only Dynamic Gaussian Simulation | [🎓 Scholar](https://scholar.google.com/scholar?q=Junwei+Han) | *VDG* [162] |
+| **Andreas Geiger** | Univ. of Tübingen (AVG) / MPI | Dynamic Autonomous Driving Scenes & Vision | [🎓 Scholar](https://scholar.google.com/scholar?q=Andreas+Geiger) | *Autonomous 4D Vision*, *MoGA* |
+| **W. Zhan & M. Tomizuka** | UC Berkeley (MSC Lab) | Autonomous Driving Street Gaussians | [🎓 Scholar](https://scholar.google.com/scholar?q=Wei+Zhan+Berkeley) | *S3Gaussian*, *R3D2 Asset Insertion* |
+| **Yue Wang** | USC / MIT | Volume-based GS for 4D Urban Scenes & Physics | [🎓 Scholar](https://scholar.google.com/scholar?q=Yue+Wang) | *EVolSplat4D*, *Implicit Physics Model* |
+| **Hao Zhao** | Tsinghua Univ. (AIR) | Feedforward 4D Reconstruction of Driving Environments | [🎓 Scholar](https://scholar.google.com/scholar?q=Hao+Zhao) | *DGGT*, *Rip-NeRF* |
