@@ -1,50 +1,97 @@
-# 🌟 Awesome Dynamic 3DGS & Volumetric Video Labs
+# 🌟 Awesome Dynamic 3DGS & Computer Vision Research Labs
 
-A rigorously curated database of Lab Directors, Principal Investigators (PIs), and Industry Teams focused **exclusively on Dynamic Scene Reconstruction and 4D Gaussian Splatting (3DGS)**. 
-
-*Note: This list strictly filters out "one-hit wonders" to highlight only the serial publishers and dedicated hubs continuously driving the state-of-the-art in 4D view synthesis, volumetric video (FVV) streaming, and autonomous driving.*
+A curated directory of leading researchers, academic laboratories, and industry research teams focusing on **Dynamic Scene Reconstruction**, **3D Gaussian Splatting (3DGS/4DGS)**, and cutting-edge **Computer Vision**.
 
 ## 📑 Table of Contents
-- [🏢 Industry Leaders: NVIDIA, ByteDance, Meta, Waymo](#-industry-leaders-nvidia-bytedance-meta-waymo)
-- [🏫 Academic PIs: Dedicated Dynamic 3DGS & FVV Hubs](#-academic-pis-dedicated-dynamic-3dgs--fvv-hubs)
--[🚗 Academic PIs: Autonomous Driving 3DGS](#-academic-pis-autonomous-driving-3dgs)
+- [🎯 Dynamic Scene Reconstruction & 3DGS Focus](#-dynamic-scene-reconstruction--3dgs-focus)
+- [🏢 Leading Industry Research Teams](#-leading-industry-research-teams)
+- [🎓 Top Academic Institutions in CV & Graphics](#-top-academic-institutions-in-cv--graphics)
+- [🧑‍🔬 Key Researchers to Follow](#-key-researchers-to-follow)
 
 ---
 
-## 🏢 Industry Leaders: NVIDIA, ByteDance, Meta, Waymo
-*The specific corporate sub-divisions and tech leads actively shipping real-time 4D Gaussian pipelines, dynamic driving simulators, and trajectory fields.*
+## 🎯 Dynamic Scene Reconstruction & 3DGS Focus
 
-| Company | Key Director / Researcher | 4DGS Focus Area | Scholar | Multiple 4DGS Hits / Key Projects |
-|:---|:---|:---|:---:|:---|
-| **ByteDance (Seed / Core CV)** | Hao Ouyang, Jiawei Ren | Text/Video-to-4D, Generative Dynamic Scenes |[🎓 Scholar](https://scholar.google.com/scholar?q=Hao+Ouyang) | *MoVieS*, *Trace Anything*, *TokenGS* |
-| **NVIDIA (Toronto AI Lab)** | Sanja Fidler, Zan Gojcic | Reconstructing Driving Logs & 4D Simulation | [🎓 Scholar](https://scholar.google.com/scholar?q=Sanja+Fidler) | *BTimer*, *ReMatching*, *4D-Rotor GS* |
-| **NVIDIA (Research)** | Shalini De Mello, Thomas Müller | Dynamic Driving & FVV Streaming | [🎓 Scholar](https://scholar.google.com/scholar?q=Shalini+De+Mello) | *EmerNeRF*, *QUEEN*, *Instant NGP* |
-| **Meta Reality Labs** | Timur Bagautdinov, Lei Xiao | Codec Avatars, Gaussian Deformation Fields | [🎓 Scholar](https://scholar.google.com/scholar?q=Lei+Xiao+Meta) | *Codec Avatars*, *GauFRe* |
-| **Waymo Research** | Drago Anguelov | Large-scale Dynamic Driving Scenes | [🎓 Scholar](https://scholar.google.com/scholar?q=Drago+Anguelov) | *Neural Sensor Simulation* |
-| **Luma AI** | Matthew Tancik | Commercial 3DGS & Video-to-3D Engines |[🎓 Scholar](https://scholar.google.com/scholar?q=Matthew+Tancik) | *Nerfstudio*, *Luma 4D Engine* |
+This section highlights labs that are pioneering 3D Gaussian Splatting, specifically pushing the boundaries into temporal dimensions (4D), dynamic scenes, and deformable objects.
 
----
+### [Inria - GraphDeco Lab](https://team.inria.fr/graphdeco/)
+* **Key Focus:** Original creators of 3D Gaussian Splatting, novel view synthesis, rendering.
+* **Notable Contributions:** The original 3DGS paper, followed by extensive work in dynamic and scalable splatting.
+* **Key Figure(s):** George Drettakis.
 
-## 🏫 Academic PIs: Dedicated Dynamic 3DGS & FVV Hubs
-*The "Big 4" global academic powerhouses dominating the research output for real-time 4D Gaussians, human-scene tracking, and Volumetric Video Streaming.*
+### [Max Planck Institute for Intelligent Systems (MPI)](https://ps.is.mpg.de/)
+* **Key Focus:** Dynamic human body reconstruction, autonomous driving scenes, neural rendering.
+* **Notable Contributions:** Pioneers in human statistical models (SMPL) and integrating these priors into dynamic 3DGS for animatable avatars.
+* **Key Figure(s):** Michael J. Black, Andreas Geiger (Autonomous Vision Group).
 
-| PI / Lab Director | Institution / Lab | Primary 3DGS Mandate | Scholar | Multiple 4DGS Hits (Recent) |
-|:---|:---|:---|:---:|:---|
-| **Xiaowei Zhou & Hujun Bao** | Zhejiang Univ. (ZJU3DV/MARS) | Real-time 4D Urban Scenes & Spacetime Tracking | [🎓 Scholar](https://scholar.google.com/scholar?q=Xiaowei+Zhou) | *4K4D*, *Im4D*, *FreeTimeGS*, *Habitat-GS* |
-| **Lan Xu & Jingyi Yu** | ShanghaiTech Univ. (MARS) | Volumetric Video (FVV) Compression & Mobile Streaming | [🎓 Scholar](https://scholar.google.com/scholar?q=Lan+Xu+ShanghaiTech) | *DualGS*, *V3 (Mobile 3DGS)*, *HiFi4G* |
-| **Yebin Liu** | Tsinghua Univ. (4D Human Grp) | 4D Multi-Object Capture & Geometry-Aware Diffusion | [🎓 Scholar](https://scholar.google.com/scholar?q=Yebin+Liu) | *GPS-Gaussian*, *4DEquine*, *GeoDiff4D* |
-| **Mike Zheng Shou** | National Univ. of Singapore | Spatio-temporal Modeling & 4D Video Reconstruction |[🎓 Scholar](https://scholar.google.com/scholar?q=Mike+Zheng+Shou) | *DynVideo-E*, *HOSNeRF*, *DeVRF* |
-| **C. Theobalt & G. Pons-Moll** | MPI for Informatics (VCAI) | Dynamic Environments & Relightable Moving Scenes | [🎓 Scholar](https://scholar.google.com/scholar?q=Christian+Theobalt) | *Relightable 3DGS*, *PhysHead*, *Dynamic 3DGS* |
-| **Hao Tang & Baoquan Chen** | Peking University | Dynamic Scene Rendering & Interpretable 4D Rotors | [🎓 Scholar](https://scholar.google.com/scholar?q=Hao+Tang) | *4D-Rotor GS*, *IEEE Dynamic Scene Survey* |
+### [UC Berkeley - Kanazawa Lab (BAIR)](https://bair.berkeley.edu/)
+* **Key Focus:** Capturing dynamic, everyday scenes from casual videos; dynamic NeRFs transitioning to dynamic 3DGS.
+* **Notable Contributions:** K-Planes, Plenoxels, and highly influential work on deformable and dynamic 3D representations.
+* **Key Figure(s):** Angjoo Kanazawa, Alexei Efros.
+
+### [ETH Zurich - VLG (Visual Intelligence and Systems Group)](https://vlg.inf.ethz.ch/)
+* **Key Focus:** Digital humans, dynamic avatars, and temporal 3D/4D reconstruction.
+* **Notable Contributions:** Cutting-edge research on combining 3DGS with human motion capture and dynamic clothing.
+* **Key Figure(s):** Siyu Tang, Marc Pollefeys (Computer Vision and Geometry Group).
 
 ---
 
-## 🚗 Academic PIs: Autonomous Driving 3DGS
-*Labs applying Pure Dynamic 3DGS to large-scale, unbounded, and highly complex moving street scenes.*
+## 🏢 Leading Industry Research Teams
 
-| PI / Lab Director | Institution / Lab | Autonomous Driving 3DGS Focus | Scholar | Multiple 4DGS Hits (Recent) |
-|:---|:---|:---|:---:|:---|
-| **Andreas Geiger** | Univ. of Tübingen (AVG) / MPI | Dynamic Autonomous Driving Scenes & Vision | [🎓 Scholar](https://scholar.google.com/scholar?q=Andreas+Geiger) | *Autonomous 4D Vision*, *MoGA* |
-| **W. Zhan & M. Tomizuka** | UC Berkeley (MSC Lab) | Autonomous Driving Street Gaussians | [🎓 Scholar](https://scholar.google.com/scholar?q=Wei+Zhan+Berkeley) | *S3Gaussian*, *R3D2 Asset Insertion* |
-| **Yue Wang** | USC / MIT | Volume-based GS for 4D Urban Scenes & Physics | [🎓 Scholar](https://scholar.google.com/scholar?q=Yue+Wang) | *EVolSplat4D*, *Implicit Physics Model* |
-| **Hao Zhao** | Tsinghua Univ. (AIR) | Feedforward 4D Reconstruction of Driving Environments | [🎓 Scholar](https://scholar.google.com/scholar?q=Hao+Zhao) | *DGGT*, *Rip-NeRF* |
+Industry teams that possess massive computational resources and are driving the commercialization and foundational research of CV, 3D generation, and neural rendering.
+
+### [NVIDIA Research](https://www.nvidia.com/en-us/research/)
+* **Overview:** Arguably the most dominant force in neural rendering and 3D graphics hardware/software integration.
+* **Key Sub-Teams:** 
+  * **Toronto AI Lab (Sanja Fidler):** Focuses heavily on Neural Graphics, 3D generation, and AI-driven content creation.
+  * **Graphics Research (Thomas Müller / Peter Shirley):** Creators of Instant NGP, pushing real-time rendering limits which directly accelerated the adoption of NeRFs and 3DGS.
+
+### [ByteDance Research](https://research.bytedance.com/)
+* **Overview:** Extremely aggressive and successful in deploying CV and 3D research into consumer apps (TikTok/Douyin) and VR (Pico).
+* **Key Sub-Teams:**
+  * **Intelligent Creation Lab:** World-class work in generative AI, virtual humans, and dynamic video editing.
+  * **Pico XR Research:** Focused on real-time 3D reconstruction, SLAM, and dynamic avatar rendering for VR environments.
+
+### [Google DeepMind / Google Research](https://deepmind.google/discover/research/)
+* **Overview:** Pioneers of the NeRF revolution, currently heavily invested in scaling 3D generation and dynamic scene understanding.
+* **Key Sub-Teams:**
+  * **Vision & Graphics Team:** Creators of Zip-NeRF, Mip-NeRF 360. Currently exploring hybrid NeRF/3DGS architectures for unbounded and dynamic scenes.
+
+### [Meta Reality Labs (Code Avatars & 3D)](https://about.meta.com/realitylabs/)
+* **Overview:** The industry leader in photorealistic dynamic human reconstruction (Codec Avatars) and AR/VR foundational research.
+* **Key Focus:** Highly constrained dynamic scene reconstruction (faces, bodies, hands) using neural rendering and, increasingly, splatting techniques for real-time edge-device inference.
+
+### [Snap Inc. - Snap Research](https://research.snap.com/)
+* **Overview:** Highly focused on lightweight, real-time CV and 3D rendering for mobile platforms (AR lenses).
+* **Key Focus:** Real-time dynamic neural rendering, efficient 3DGS deployment on mobile, and 3D face/body tracking.
+
+---
+
+## 🎓 Top Academic Institutions in CV & Graphics
+
+Beyond specific 3DGS focus, these labs consistently output top-tier papers (CVPR, ICCV, ECCV, SIGGRAPH) in general computer vision and 3D.
+
+* **[Stanford Vision and Learning Lab (SVL)](http://svl.stanford.edu/):** Led by Fei-Fei Li and Jiajun Wu. Strong focus on 3D scene understanding, neuro-symbolic AI, and physical scene dynamics.
+* **[MIT CSAIL - Computer Graphics Group](https://graphics.csail.mit.edu/):** Led by Wojciech Matusik and William Freeman. Pioneers in computational photography and differentiable rendering.
+* **[TUM (Technical University of Munich) - Computer Vision Group](https://cvg.cit.tum.de/):** Led by Daniel Cremers. World leaders in SLAM, 3D reconstruction, and multi-view geometry.
+* **[University of Washington - GRAIL](https://grail.cs.washington.edu/):** Led by Steve Seitz, Brian Curless, Ali Farhadi. Historically the birthplace of modern photogrammetry and foundational view synthesis.
+
+---
+
+## 🧑‍🔬 Key Researchers to Follow (Dynamic Scene & 3DGS)
+
+*A quick-reference list of PI's and lead researchers driving the 3DGS and Dynamic 3D fields.*
+
+| Researcher | Affiliation | Key Focus Area |
+| :--- | :--- | :--- |
+| **George Drettakis** | Inria | 3DGS, Real-time rendering, Point-based graphics |
+| **Jon Barron** | Google | NeRFs, Anti-aliased rendering, Hybrid 3D representations |
+| **Andreas Geiger** | Univ. of Tübingen / MPI | Autonomous driving, Dynamic outdoor scene reconstruction |
+| **Angjoo Kanazawa** | UC Berkeley | Dynamic NeRFs, Video-to-3D, Human motion |
+| **Sanja Fidler** | NVIDIA / UofT | Neural graphics, 3D Generative AI |
+| **Siyu Tang** | ETH Zurich | Digital humans, 4D avatar generation |
+| **Christian Theobalt** | MPI Informatics | Markerless motion capture, Neural human rendering |
+| **Gordon Wetzstein** | Stanford | Computational displays, Neural scene representations |
+
+---
+*Maintained by: [Your Name/Lab Name] | Last Updated: [Current Date]*
