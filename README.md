@@ -1,65 +1,54 @@
-# 🌟 Awesome Dynamic 3DGS & Avatar Researchers
+# 🌟 Awesome Dynamic Scene Reconstruction & 3DGS Researchers
 
-A curated database of top-tier researchers, industry powerhouses, and academic institutions focusing on **Dynamic 3D Gaussian Splatting (3DGS)**, **3D Avatars (Digital Humans)**, and **Deformable Scene Reconstruction**.
+A curated database of top-tier researchers, industry powerhouses, and academic teams focusing specifically on **Dynamic Scene Reconstruction**, **4D Gaussian Splatting (3DGS)**, and **Deformable Environments**.
 
 ## 📑 Table of Contents
--[🟢 Dynamic 3DGS Pioneers](#-dynamic-3dgs-pioneers)
--[🧍‍♂️ 3D Gaussian Avatars & Digital Humans](#️-3d-gaussian-avatars--digital-humans)
--[🏢 Industry Labs (NVIDIA, ByteDance, Meta)](#-industry-labs)
-- [🏫 Top Academic Teams in Avatars & Dynamics](#-top-academic-teams)
+- [🟢 Dynamic & 4D Scene Reconstruction](#-dynamic--4d-scene-reconstruction)
+- [🏢 Important Industry Institutions (NVIDIA, ByteDance, etc.)](#-important-industry-institutions)
+- [🏫 Powerful Academic Research Teams](#-powerful-academic-research-teams)
 
 ---
 
-## 🟢 Dynamic 3DGS Pioneers
-*The foundational architects behind dynamic scene modeling, tracking, and 4D space formulation.*
+## 🟢 Dynamic & 4D Scene Reconstruction
+*Pioneers and lead researchers focusing on deformable objects, 4D urban environments, moving camera setups, and complex multi-object dynamic tracking.*
 
-| Researcher | Institution | Specialization | Scholar | X (Twitter) | Web |
-|:---|:---|:---|:---:|:---:|:---:|
-| **Jonathon Luiten** | MPI / Cornell | Dynamic 3D Gaussians, Tracking | [🎓 Scholar](https://scholar.google.com/scholar?q=Jonathon+Luiten) | [🐦 X](https://twitter.com/JonathonLuiten) | [🌐 Link](https://jonathonluiten.com/) |
-| **Guanqun Wu** | UMD | 4D Gaussian Splatting | [🎓 Scholar](https://scholar.google.com/scholar?q=Guanqun+Wu) | [🐦 X](#) | [🌐 Link](https://guanqun-wu.github.io/) |
-| **Angjoo Kanazawa** | UC Berkeley | Dynamic NeRF, Plenoxels | [🎓 Scholar](https://scholar.google.com/scholar?q=Angjoo+Kanazawa) | [🐦 X](https://twitter.com/kanazawa_ai) | [🌐 Link](https://people.eecs.berkeley.edu/~kanazawa/) |
-| **Ziyi Yang** | UESTC / Tencent | Deformable 3D Gaussians | [🎓 Scholar](https://scholar.google.com/scholar?q=Ziyi+Yang+3D) | [🐦 X](#) | [🌐 Link](https://ingra14m.github.io/) |
-
----
-
-## 🧍‍♂️ 3D Gaussian Avatars & Digital Humans
-*Researchers dominating the niche of human performance capture, facial animation, and dynamic clothing via 3DGS.*
-
-| Researcher | Institution | Specialization | Scholar | X (Twitter) | Web |
-|:---|:---|:---|:---:|:---:|:---:|
-| **Yebin Liu** | Tsinghua University | 4D Human & Object Reconstruction | [🎓 Scholar](https://scholar.google.com/scholar?q=Yebin+Liu) | [🐦 X](#) | [🌐 Link](http://liuyebin.com/) |
-| **Matthias Nießner** | TU Munich | High-Fidelity Avatars (ScaffoldAvatar) | [🎓 Scholar](https://scholar.google.com/scholar?q=Matthias+Nießner) | [🐦 X](https://twitter.com/MatthiasNiessner) | [🌐 Link](https://niessnerlab.org/) |
-| **Siyu Tang** | ETH Zurich | Expressive 3DGS, Human Avatars | [🎓 Scholar](https://scholar.google.com/scholar?q=Siyu+Tang) | [🐦 X](https://twitter.com/SiyuTang) | [🌐 Link](https://vlg.inf.ethz.ch/) |
-| **Juyong Zhang** | USTC | 3D Facial Avatars, Head Swapping | [🎓 Scholar](https://scholar.google.com/scholar?q=Juyong+Zhang) | [🐦 X](#) |[🌐 Link](http://staff.ustc.edu.cn/~juyong/) |
-| **Lan Xu** | ShanghaiTech | Dynamic Human Capture, Telepresence | [🎓 Scholar](https://scholar.google.com/scholar?q=Lan+Xu) | [🐦 X](#) | [🌐 Link](https://xu-lan.github.io/) |
-| **Peter Wonka** | KAUST | 360° Gaussian Avatars | [🎓 Scholar](https://scholar.google.com/scholar?q=Peter+Wonka) | [🐦 X](#) | [🌐 Link](https://peterwonka.net/) |
-| **Jie Song** | ETH Zurich | Compositional Avatars, Virtual Try-on | [🎓 Scholar](https://scholar.google.com/scholar?q=Jie+Song) |[🐦 X](#) | [🌐 Link](#) |
+| Researcher | Institution | Specialization | Scholar | X (Twitter) |
+|:---|:---|:---|:---:|:---:|
+| **Jonathon Luiten** | MPI / Cornell | Dynamic 3DGS, Persistent Tracking | [🎓 Scholar](https://scholar.google.com/scholar?q=Jonathon+Luiten) | [🐦 X](https://twitter.com/JonathonLuiten) |
+| **Angjoo Kanazawa** | UC Berkeley (KAIR) | Dynamic NeRF, Plenoxels, Wild Scenes | [🎓 Scholar](https://scholar.google.com/scholar?q=Angjoo+Kanazawa) | [🐦 X](https://twitter.com/kanazawa_ai) |
+| **Guanqun Wu** | UMD | 4D Gaussian Splatting | [🎓 Scholar](https://scholar.google.com/scholar?q=Guanqun+Wu) | [🐦 X](#) |
+| **Yue Wang** | USC / MIT | 4D Urban Scene Synthesis (EVolSplat4D) | [🎓 Scholar](https://scholar.google.com/scholar?q=Yue+Wang) | [🐦 X](https://twitter.com/yuewang_94) |
+| **Andreas Geiger** | Univ. of Tübingen / MPI | Dynamic Autonomous Driving Scenes | [🎓 Scholar](https://scholar.google.com/scholar?q=Andreas+Geiger) | [🐦 X](https://twitter.com/geiger_andreas) |
+| **Yebin Liu** | Tsinghua University | 4D Multi-Object / Human Reconstruction | [🎓 Scholar](https://scholar.google.com/scholar?q=Yebin+Liu) | [🐦 X](#) |
+| **Martin R. Oswald** | University of Amsterdam | Instance-Decomposed 3DGS for Driving |[🎓 Scholar](https://scholar.google.com/scholar?q=Martin+R.+Oswald) |[🐦 X](#) |
+| **Yi Yang** | Zhejiang University | Multi-Human/Multi-Object 3DGS | [🎓 Scholar](https://scholar.google.com/scholar?q=Yi+Yang) |[🐦 X](#) |
 
 ---
 
-## 🏢 Industry Labs
-*The most powerful corporate research groups driving real-time digital humans, generative avatars, and VR telepresence.*
+## 🏢 Important Industry Institutions
+*The most powerful corporate research groups driving real-time 3D reconstruction, generative 3D, and dynamic simulation.*
 
 | Company | Key Researcher | Focus Area | Scholar | X (Twitter) |
 |:---|:---|:---|:---:|:---:|
-| **NVIDIA** | Koki Nagano | Real-time 3D Faces, Neural Avatars | [🎓 Scholar](https://scholar.google.com/scholar?q=Koki+Nagano) | [🐦 X](https://twitter.com/koki_nagano) |
-| **NVIDIA** | Thomas Müller | Instant NGP, Core 3DGS Rendering | [🎓 Scholar](https://scholar.google.com/scholar?q=Thomas+Müller) | [🐦 X](https://twitter.com/tom94_) |
-| **NVIDIA** | Ming-Yu Liu | Generative 3D & Avatar Synthesis | [🎓 Scholar](https://scholar.google.com/scholar?q=Ming-Yu+Liu) | [🐦 X](https://twitter.com/mingyuliu82) |
-| **ByteDance** | Hao Ouyang | Text-to-3D, Generative Digital Humans | [🎓 Scholar](https://scholar.google.com/scholar?q=Hao+Ouyang) | [🐦 X](https://twitter.com/OuyangHao_) |
-| **ByteDance** | Jiawei Ren | Generative 3D, High-fidelity Rendering | [🎓 Scholar](https://scholar.google.com/scholar?q=Jiawei+Ren) | [🐦 X](https://twitter.com/jiaweiren11) |
-| **ByteDance** | Ziwei Liu | 3D GANs, Dynamic Human Generation | [🎓 Scholar](https://scholar.google.com/scholar?q=Ziwei+Liu) |[🐦 X](https://twitter.com/ZiweiLiu9) |
-| **Meta Reality Labs** | Yaser Sheikh | Codec Avatars, Photorealistic Telepresence | [🎓 Scholar](https://scholar.google.com/scholar?q=Yaser+Sheikh) | [🐦 X](#) |
+| **NVIDIA** | Sanja Fidler | VP of AI; 3D Assets for Autonomous Driving | [🎓 Scholar](https://scholar.google.com/scholar?q=Sanja+Fidler) | [🐦 X](https://twitter.com/FidlerSanja) |
+| **NVIDIA** | Ming-Yu Liu | Generative 3D, Dynamic Scene Editing | [🎓 Scholar](https://scholar.google.com/scholar?q=Ming-Yu+Liu) | [🐦 X](https://twitter.com/mingyuliu82) |
+| **NVIDIA** | Thomas Müller | Core rendering optimization (Instant NGP) | [🎓 Scholar](https://scholar.google.com/scholar?q=Thomas+Müller) | [🐦 X](https://twitter.com/tom94_) |
+| **NVIDIA** | Zan Gojcic | 3D Asset Harvesting from Driving Logs | [🎓 Scholar](https://scholar.google.com/scholar?q=Zan+Gojcic) | [🐦 X](#) |
+| **ByteDance** | Hao Ouyang | Text-to-3D, Generative Dynamic Scenes | [🎓 Scholar](https://scholar.google.com/scholar?q=Hao+Ouyang) | [🐦 X](https://twitter.com/OuyangHao_) |
+| **ByteDance** | Jiawei Ren | Autonomous Driving Assets, High-fidelity 3D | [🎓 Scholar](https://scholar.google.com/scholar?q=Jiawei+Ren) | [🐦 X](https://twitter.com/jiaweiren11) |
 | **Google Research** | Jon Barron | View Synthesis Scaling (Zip-NeRF/3DGS) | [🎓 Scholar](https://scholar.google.com/scholar?q=Jon+Barron) | [🐦 X](https://twitter.com/jon_barron) |
+| **Waymo** | Drago Anguelov | Head of Research; Dynamic Driving scenes | [🎓 Scholar](https://scholar.google.com/scholar?q=Drago+Anguelov) | [🐦 X](#) |
 
 ---
 
-## 🏫 Top Academic Teams in Avatars & Dynamics
-*The principal investigators (PIs) and labs with the highest output in 3DGS human reconstruction.*
+## 🏫 Powerful Academic Research Teams
+*World-renowned labs and principal investigators (PIs) defining the state-of-the-art in computer vision and 3D reconstruction.*
 
 | PI / Lead Researcher | Institution / Lab | Specialization | Scholar | Lab / Web |
 |:---|:---|:---|:---:|:---:|
-| **Christian Theobalt** | MPI for Informatics (VCAI) | Dynamic Avatars, Holoportation | [🎓 Scholar](https://scholar.google.com/scholar?q=Christian+Theobalt) | [🌐 Lab](https://vcai.mpi-inf.mpg.de/) |
-| **Xiaowei Zhou** | Zhejiang University (MARS) | 3DGS-Avatar, Human SLAM | [🎓 Scholar](https://scholar.google.com/scholar?q=Xiaowei+Zhou) | [🌐 Lab](https://zju3dv.github.io/) |
-| **Gordon Wetzstein** | Stanford University | Dynamic Neural Fields, Holography | [🎓 Scholar](https://scholar.google.com/scholar?q=Gordon+Wetzstein) | [🌐 Lab](https://www.computationalimaging.org/) |
-| **Hujun Bao** | Zhejiang University | Differentiable Primitives for Avatars | [🎓 Scholar](https://scholar.google.com/scholar?q=Hujun+Bao) | [🌐 Lab](https://zju3dv.github.io/) |
-| **Marc Habermann** | MPI for Informatics | Markerless Human Performance Capture| [🎓 Scholar](https://scholar.google.com/scholar?q=Marc+Habermann) | [🌐 Link](#) |
+| **Christian Theobalt** | MPI for Informatics (VCAI) | Dynamic Environments & Telepresence | [🎓 Scholar](https://scholar.google.com/scholar?q=Christian+Theobalt) | [🌐 Lab](https://vcai.mpi-inf.mpg.de/) |
+| **Xiaowei Zhou** | Zhejiang University (MARS) | Dynamic 3DGS, SLAM, Human-Scene Interac | [🎓 Scholar](https://scholar.google.com/scholar?q=Xiaowei+Zhou) | [🌐 Lab](https://zju3dv.github.io/) |
+| **Gordon Wetzstein** | Stanford University | Dynamic Neural Fields, Computational Imaging| [🎓 Scholar](https://scholar.google.com/scholar?q=Gordon+Wetzstein) |[🌐 Lab](https://www.computationalimaging.org/) |
+| **Masayoshi Tomizuka** | UC Berkeley (MSC Lab) | Realistic 3D Simulation for Robotics | [🎓 Scholar](https://scholar.google.com/scholar?q=Masayoshi+Tomizuka) | [🌐 Link](https://msc.berkeley.edu/) |
+| **Siyu Tang** | ETH Zurich (VLG) | Expressive 3DGS, Human-Scene Interaction | [🎓 Scholar](https://scholar.google.com/scholar?q=Siyu+Tang) | [🌐 Lab](https://vlg.inf.ethz.ch/) |
+| **Wenzhao Zheng** | UC Berkeley / Tsinghua | Realistic 3D Asset Insertion in Scenes | [🎓 Scholar](https://scholar.google.com/scholar?q=Wenzhao+Zheng) | [🌐 Link](#) |
