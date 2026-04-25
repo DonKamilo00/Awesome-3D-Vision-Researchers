@@ -8,12 +8,8 @@
 
 | Name | Affiliation | Google Scholar | Personal Page | X (Twitter) |
 |------|-------------|----------------|---------------|-------------|
-| Thomas Wimmer | MPI Informatics | [Scholar](https://scholar.google.com/citations?user=Z8sZmDgAAAAJ&hl=en) | [wimmerth.github.io](https://wimmerth.github.io) | [@thomaswimmer](https://twitter.com/thomaswimmer) |
 | Jiapeng Tang | TUM Visual Computing | [Scholar](https://scholar.google.com/citations?user=xn0b2mAAAAAJ&hl=en) | [tangjiapeng.github.io](https://tangjiapeng.github.io) | [@jiapeng_tang](https://twitter.com/jiapeng_tang) |
 | Jiawei Ren | NVIDIA (Toronto) | [Scholar](https://scholar.google.com/citations?user=hI1gRxQAAAAJ&hl=en) | [NVIDIA Profile](https://research.nvidia.com/labs/toronto-ai/author/jiawei-ren/) | [@jiawei_ren](https://twitter.com/jiawei_ren) |
-| Chen-Hsuan Lin | NVIDIA | [Scholar](https://scholar.google.com/citations?user=6VcZkCwAAAAJ&hl=en) | [chenhsuanlin.bitbucket.io](https://chenhsuanlin.bitbucket.io) | [@chenhsuanlin](https://twitter.com/chenhsuanlin) |
-| Jiahui Huang | NVIDIA Toronto AI Lab | [Scholar](https://scholar.google.com/citations?user=2aVfYUEAAAAJ&hl=en) | – | – |
-| Yoni Kasten | NVIDIA Tel Aviv | [Scholar](https://scholar.google.com/citations?user=6tJcQVQAAAAJ&hl=en) | – | – |
 | Zhuo Su | ByteDance | [Scholar](https://scholar.google.com/citations?user=DiU3tOUAAAAJ&hl=en) | – | – |
 | Hongyi Xu | ByteDance | [Scholar](https://scholar.google.com/citations?user=RhFbHsoAAAAJ&hl=en) | [AMiner Profile](https://www.aminer.cn/profile/h-xu/562d4c0a45cedb3398db60b7) | – |
 | James Tompkin | Brown University | [Scholar](https://scholar.google.com/citations?user=2J6n2ZcAAAAJ&hl=en) | [jamestompkin.com](https://jamestompkin.com) | [@jamestompkin](https://twitter.com/jamestompkin) |
