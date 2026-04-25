@@ -1,5 +1,4 @@
-# 🧊 Dynamic 3D Gaussian Splatting – Research Tracker
-
+# 🧊 Dynamic 3D Gaussian Splatting – R
 > A curated list of researchers, labs, and industry teams pushing the boundaries of **dynamic scene reconstruction with 3D Gaussian Splatting (3DGS)**.  
 > Ideal for students and researchers who want to follow the latest papers, code, and discussions.
 
@@ -11,7 +10,6 @@
 |------|-------------|----------------|---------------|-------------|
 | Thomas Wimmer | MPI Informatics | [Scholar](https://scholar.google.com/citations?user=Z8sZmDgAAAAJ&hl=en) | [wimmerth.github.io](https://wimmerth.github.io) | [@thomaswimmer](https://twitter.com/thomaswimmer) |
 | Jiapeng Tang | TUM Visual Computing | [Scholar](https://scholar.google.com/citations?user=xn0b2mAAAAAJ&hl=en) | [tangjiapeng.github.io](https://tangjiapeng.github.io) | [@jiapeng_tang](https://twitter.com/jiapeng_tang) |
-| Chengxiang Wen | Peking University | [Scholar](https://scholar.google.com/citations?user=WK0Ei3IAAAAJ&hl=en) | [Personal Page](http://villa.jianzhang.tech/people/chengxiang-wen-%E6%B8%A9%E7%A8%8B%E7%BF%94/) | – |
 | Jiawei Ren | NVIDIA (Toronto) | [Scholar](https://scholar.google.com/citations?user=hI1gRxQAAAAJ&hl=en) | [NVIDIA Profile](https://research.nvidia.com/labs/toronto-ai/author/jiawei-ren/) | [@jiawei_ren](https://twitter.com/jiawei_ren) |
 | Chen-Hsuan Lin | NVIDIA | [Scholar](https://scholar.google.com/citations?user=6VcZkCwAAAAJ&hl=en) | [chenhsuanlin.bitbucket.io](https://chenhsuanlin.bitbucket.io) | [@chenhsuanlin](https://twitter.com/chenhsuanlin) |
 | Jiahui Huang | NVIDIA Toronto AI Lab | [Scholar](https://scholar.google.com/citations?user=2aVfYUEAAAAJ&hl=en) | – | – |
@@ -21,11 +19,7 @@
 | James Tompkin | Brown University | [Scholar](https://scholar.google.com/citations?user=2J6n2ZcAAAAJ&hl=en) | [jamestompkin.com](https://jamestompkin.com) | [@jamestompkin](https://twitter.com/jamestompkin) |
 | Noah Snavely | Cornell Tech / Google | [Scholar](https://scholar.google.com/citations?user=3Fxv8OIAAAAJ&hl=en) | [cs.cornell.edu/~snavely](https://www.cs.cornell.edu/~snavely/) | – |
 | Qianqian Wang | Cornell Tech | [Scholar](https://scholar.google.com/citations?user=-_9zR5gAAAAJ&hl=en) | [qianqianwang.github.io](https://qianqianwang.github.io) | – |
-| Kaihua Chen | CMU | [Scholar](https://scholar.google.com/citations?user=mPEfx_4AAAAJ&hl=en) | – | – |
 | Shenhan Qian | TUM | [Scholar](https://scholar.google.com/citations?user=Yv29zbsAAAAJ&hl=en) | [shenhanqian.github.io](https://shenhanqian.github.io) | – |
-| Diwen Wan | Independent | [Scholar](https://scholar.google.com/citations?user=K4Bn4R4AAAAJ&hl=en) | – | – |
-| Zunjie Zhu | Independent | [Scholar](https://scholar.google.com/citations?user=ZRz8nPoAAAAJ&hl=en) | – | – |
-| Zilong Chen | Tsinghua Shenzhen | [Scholar](https://scholar.google.com/citations?user=DdCR4a0AAAAJ&hl=en) | – | – |
 
 ---
 
