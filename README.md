@@ -1,78 +1,71 @@
-# Awesome Dynamic 3D Gaussian Splatting 🌌
+# 🧊 Dynamic 3D Gaussian Splatting – Research Tracker
 
-A curated and strictly classified list of prominent research labs, top-tier academic institutions, and industry powerhouse teams focusing purely on **Dynamic Scene Reconstruction using 3D Gaussian Splatting (3DGS)**. 
-
-## 📑 Table of Contents
-- [Strict Classifications in Dynamic 3DGS](#-strict-classifications-in-dynamic-3dgs)
-- [Industry Heavyweights & Elite Researchers](#-industry-heavyweights--elite-researchers)
-  - [ByteDance AI Lab & PICO](#bytedance-ai-lab--pico)
-  - [NVIDIA Research](#nvidia-research)
-  - [Meta Reality Labs](#meta-reality-labs-mrl)
-  - [Tencent & Snap Inc.](#tencent--snap-inc)
--[Top Academic Institutions & Labs](#-top-academic-institutions--labs)
+> A curated list of researchers, labs, and industry teams pushing the boundaries of **dynamic scene reconstruction with 3D Gaussian Splatting (3DGS)**.  
+> Ideal for students and researchers who want to follow the latest papers, code, and discussions.
 
 ---
 
-## 🔬 Strict Classifications in Dynamic 3DGS
+## 🧑‍🔬 Individual Researchers
 
-To effectively source leads, the research teams and their underlying architectures in this repo are strictly classified into the following 3DGS sub-domains:
-
-| Classification | Description |
-| :--- | :--- |
-| **Deformable 3D Gaussian Splatting** | Employs an MLP-based deformation field to predict the offsets of 3D Gaussians (position, rotation, scale) in canonical space over time. |
-| **4D Gaussian Splatting (4D-GS)** | Utilizes spatio-temporal structures (e.g., multi-resolution HexPlanes or 4D voxel grids) for real-time dynamic scene rendering without massive MLPs. |
-| **Large-Scale Dynamic 3DGS** | Adapts dynamic 3DGS for urban scenes and autonomous driving, dynamically separating moving vehicles/pedestrians from static backgrounds. |
-| **Human-Centric Dynamic 3DGS** | Focuses on tracking, reconstructing, and animating dynamic human avatars, including complex topologies like clothing and hair. |
-
----
-
-## 🏢 Industry Heavyweights & Elite Researchers
-
-### [ByteDance AI Lab & PICO](https://research.bytedance.com/)
-ByteDance is arguably the most aggressive industry player in 3DGS research, having co-authored the foundational "4D Gaussian Splatting" and "Deformable 3D Gaussians" papers [1].
-
-| Researcher | Role & Lab | Focus Area | Profiles & Links |
-| :--- | :--- | :--- | :--- |
-| **Guanjun Wu** | Researcher (Collaborator) | **4D Gaussian Splatting (4D-GS)**, real-time dynamic rendering via spatio-temporal voxel grids. | [Scholar](https://scholar.google.com/citations?user=GuanjunWu) <br> [X](https://twitter.com/search?q=Guanjun+Wu) |
-| **Ziyi Yang** | Researcher (Collaborator) | **Deformable 3D Gaussians**, high-fidelity monocular dynamic scene reconstruction. | [Scholar](https://scholar.google.com/citations?user=ZiyiYang) <br> [X](https://twitter.com/search?q=Ziyi+Yang) |
-| **Yuheng Jiang** | Research Scientist | Instance-aware dynamic 3DGS modeling, understanding complex dynamic urban topologies. | [Scholar](https://scholar.google.com/citations?user=YuhengJiang) <br> [Lab Portal](https://research.bytedance.com/) |
-| **Jonghyun Kim** | Senior Research Scientist | High-performance 4DGS compression and XR streaming (recently published with ByteDance/PICO). | [Scholar](https://scholar.google.com/citations?user=JonghyunKim) <br> [X](https://twitter.com/search?q=Jonghyun+Kim+NVIDIA) |
-
-### [NVIDIA Research](https://research.nvidia.com/)
-NVIDIA leads the charge in accelerating 3DGS rendering, compressing 4D Gaussian splats for telepresence, and spacetime feature splatting[1].
-
-| Researcher | Role & Lab | Focus Area | Profiles & Links |
-| :--- | :--- | :--- | :--- |
-| **Shalini De Mello** | Principal Research Scientist | 4DGS compression (**QUEEN**), real-time interactive 6-DoF free-viewpoint video streaming. | [Scholar](https://scholar.google.com/citations?user=G_R4PgcAAAAJ) <br> [X](https://twitter.com/shalinidemello) <br> [Lab Page](https://research.nvidia.com/person/shalini-de-mello) |
-| **Zhan Li** | Research Scientist | Spacetime Gaussian feature splatting for real-time dynamic view synthesis. | [Scholar](https://scholar.google.com/citations?user=ZhanLi) <br> [X](https://twitter.com/search?q=Zhan+Li+NVIDIA) |
-| **Ming-Yu Liu** | VP, FoundationMotion | Translating dynamic 2D videos into animatable 3D/4D Gaussian representations. | [Scholar](https://scholar.google.com/citations?user=kXkZpeoAAAAJ) <br> [X](https://twitter.com/mingyuliu82) <br> [Personal Page](https://mingyuliu.net/) |
-
-### [Meta Reality Labs (MRL)](https://research.facebook.com/augmented-reality-virtual-reality/)
-Meta is pivoting hard into 3DGS for photorealistic teleportation, dynamic hair/clothing, and urban scene reconstruction [1].
-
-| Researcher | Role & Lab | Focus Area | Profiles & Links |
-| :--- | :--- | :--- | :--- |
-| **Tony Tung** | Research Scientist | Human-centric dynamic 3DGS, **Dynamic Gaussian Hair (DGH)**, scalable avatar physics. | [Scholar](https://scholar.google.com/citations?user=TonyTung) <br> [X](https://twitter.com/tony_tung_) <br> [Personal Page](https://tonytung.github.io/) |
-| **Lorenzo Porzi** | Research Scientist | Large-scale **Dynamic 3D Gaussian Fields** for urban areas and autonomous driving. |[Scholar](https://scholar.google.com/citations?user=LorenzoPorzi) <br> [X](https://twitter.com/search?q=Lorenzo+Porzi) <br> [Lab Page](https://research.facebook.com/) |
-| **Denis Rozumny** | Research Scientist | Free-Range Gaussians, tracking dynamic objects via pre-scanned 3DGS priors. | [Scholar](https://scholar.google.com/citations?user=jM_cQy8AAAAJ) <br> [X](https://twitter.com/DenisRozumny) <br> [Personal Page](https://denisrozumny.github.io/) |
-
-### [Tencent & Snap Inc.](#)
-These companies have heavily invested in 3DGS for social AR avatars, digital humans, and real-time mobile rendering [1].
-
-| Researcher | Role & Lab | Focus Area | Profiles & Links |
-| :--- | :--- | :--- | :--- |
-| **Yanpei Cao** | Researcher, Tencent AI Lab | Core 3DGS algorithms, comprehensive scene tracking, and leading surveys on 3DGS frameworks. | [Scholar](https://scholar.google.com/citations?user=YanpeiCao) <br> [X](https://twitter.com/search?q=Yanpei+Cao) |
-| **Yash Kant** | Research Scientist, Snap Inc. | Animating human avatars in diverse scenes using dynamic 3D Gaussian Splatting (**AHA!**). | [Scholar](https://scholar.google.com/citations?user=YashKant) <br> [X](https://twitter.com/yashkant_) <br>[Personal Page](https://yashkant.github.io/) |
+| Name | Affiliation | Google Scholar | Personal Page | X (Twitter) |
+|------|-------------|----------------|---------------|-------------|
+| Thomas Wimmer | MPI Informatics | [Scholar](https://scholar.google.com/citations?user=Z8sZmDgAAAAJ&hl=en) | [wimmerth.github.io](https://wimmerth.github.io) | [@thomaswimmer](https://twitter.com/thomaswimmer) |
+| Jiapeng Tang | TUM Visual Computing | [Scholar](https://scholar.google.com/citations?user=xn0b2mAAAAAJ&hl=en) | [tangjiapeng.github.io](https://tangjiapeng.github.io) | [@jiapeng_tang](https://twitter.com/jiapeng_tang) |
+| Chengxiang Wen | Peking University | [Scholar](https://scholar.google.com/citations?user=WK0Ei3IAAAAJ&hl=en) | [Personal Page](http://villa.jianzhang.tech/people/chengxiang-wen-%E6%B8%A9%E7%A8%8B%E7%BF%94/) | – |
+| Jiawei Ren | NVIDIA (Toronto) | [Scholar](https://scholar.google.com/citations?user=hI1gRxQAAAAJ&hl=en) | [NVIDIA Profile](https://research.nvidia.com/labs/toronto-ai/author/jiawei-ren/) | [@jiawei_ren](https://twitter.com/jiawei_ren) |
+| Chen-Hsuan Lin | NVIDIA | [Scholar](https://scholar.google.com/citations?user=6VcZkCwAAAAJ&hl=en) | [chenhsuanlin.bitbucket.io](https://chenhsuanlin.bitbucket.io) | [@chenhsuanlin](https://twitter.com/chenhsuanlin) |
+| Jiahui Huang | NVIDIA Toronto AI Lab | [Scholar](https://scholar.google.com/citations?user=2aVfYUEAAAAJ&hl=en) | – | – |
+| Yoni Kasten | NVIDIA Tel Aviv | [Scholar](https://scholar.google.com/citations?user=6tJcQVQAAAAJ&hl=en) | – | – |
+| Zhuo Su | ByteDance | [Scholar](https://scholar.google.com/citations?user=DiU3tOUAAAAJ&hl=en) | – | – |
+| Hongyi Xu | ByteDance | [Scholar](https://scholar.google.com/citations?user=RhFbHsoAAAAJ&hl=en) | [AMiner Profile](https://www.aminer.cn/profile/h-xu/562d4c0a45cedb3398db60b7) | – |
+| James Tompkin | Brown University | [Scholar](https://scholar.google.com/citations?user=2J6n2ZcAAAAJ&hl=en) | [jamestompkin.com](https://jamestompkin.com) | [@jamestompkin](https://twitter.com/jamestompkin) |
+| Noah Snavely | Cornell Tech / Google | [Scholar](https://scholar.google.com/citations?user=3Fxv8OIAAAAJ&hl=en) | [cs.cornell.edu/~snavely](https://www.cs.cornell.edu/~snavely/) | – |
+| Qianqian Wang | Cornell Tech | [Scholar](https://scholar.google.com/citations?user=-_9zR5gAAAAJ&hl=en) | [qianqianwang.github.io](https://qianqianwang.github.io) | – |
+| Kaihua Chen | CMU | [Scholar](https://scholar.google.com/citations?user=mPEfx_4AAAAJ&hl=en) | – | – |
+| Shenhan Qian | TUM | [Scholar](https://scholar.google.com/citations?user=Yv29zbsAAAAJ&hl=en) | [shenhanqian.github.io](https://shenhanqian.github.io) | – |
+| Diwen Wan | Independent | [Scholar](https://scholar.google.com/citations?user=K4Bn4R4AAAAJ&hl=en) | – | – |
+| Zunjie Zhu | Independent | [Scholar](https://scholar.google.com/citations?user=ZRz8nPoAAAAJ&hl=en) | – | – |
+| Zilong Chen | Tsinghua Shenzhen | [Scholar](https://scholar.google.com/citations?user=DdCR4a0AAAAJ&hl=en) | – | – |
 
 ---
 
-## 🏫 Top Academic Institutions & Labs
+## 🏢 Key Labs & Institutions
 
-While heavily partnered with the industry labs above, these academic hubs originated the most crucial dynamic 3DGS papers.
+| Lab / Team | Institution | Website | Key Researchers |
+|------------|-------------|---------|-----------------|
+| Toronto AI Lab | NVIDIA | [research.nvidia.com/labs/toronto-ai](https://research.nvidia.com/labs/toronto-ai/) | Jiawei Ren, Jiahui Huang, Kevin Xie |
+| NVIDIA Research (Santa Clara) | NVIDIA | [nvidia.com/en-us/research](https://www.nvidia.com/en-us/research/) | Chen-Hsuan Lin, Yoni Kasten, Matthew Chan |
+| Intelligent Creation Lab | ByteDance | [ailab.bytedance.com](https://ailab.bytedance.com) | Zhuo Su, Hongyi Xu |
+| Visual Computing & AI Lab | Technical University of Munich | [niessnerlab.org](https://www.niessnerlab.org) | Matthias Nießner, Jiapeng Tang, Shenhan Qian |
+| Brown Visual Computing Group | Brown University | [jamestompkin.com](https://jamestompkin.com) | James Tompkin |
+| Cornell Computer Vision Lab | Cornell University | [cs.cornell.edu/graphics](https://www.cs.cornell.edu/graphics/) | Noah Snavely, Qianqian Wang |
+| Graphics, Vision & Video Group | MPI for Informatics | [mpi-inf.mpg.de](https://www.mpi-inf.mpg.de) | Thomas Wimmer, Christian Theobalt |
 
-| Researcher / Director | Institution & Lab | Focus Area | Profiles & Links |
-| :--- | :--- | :--- | :--- |
-| **Jonathon Luiten** | **MPI / RWTH Aachen** (Vision Group) | Authored **Dynamic 3D Gaussians**, solving persistent dynamic view synthesis and tracking. | [Scholar](https://scholar.google.com/citations?user=JonathonLuiten) <br> [X](https://twitter.com/jonathonluiten) <br> [Lab Page](https://www.vision.rwth-aachen.de/person/216/) |
-| **Prof. Xinggang Wang** | **HUST** (School of EIC) | Co-creator of **4D Gaussian Splatting** alongside ByteDance; spatio-temporal structural encoding. | [Scholar](https://scholar.google.com/citations?user=XinggangWang) <br> [X](https://twitter.com/search?q=Xinggang+Wang) <br> [Lab Page](https://xinggangw.info/) |
-| **Prof. Marc Pollefeys** | **ETH Zürich** (CVG) | Working with Meta on decomposing large-scale, heterogeneous urban scenes into Dynamic 3DGS. | [Scholar](https://scholar.google.com/citations?user=MarcPollefeys) <br> [X](https://twitter.com/marcpollefeys) <br> [Lab Page](https://cvg.ethz.ch/) |
-| **Prof. Baoquan Chen** | **Peking University** | **4D-Rotor Gaussian Splatting**, highly efficient novel view synthesis for dynamic scenes. | [Scholar](https://scholar.google.com/citations?user=BaoquanChen) <br> [X](https://twitter.com/baoquanchen) <br>[Lab Page](https://cfcs.pku.edu.cn/baoquan/) |
+---
+
+## 🔍 Search & Discovery Tips
+
+- **Google Scholar**: Use the search operator `author:"First Last"` (e.g., `author:"Jiawei Ren"`) to find all publications by a specific researcher.
+- **X (Twitter)**: Follow the researchers listed above, and monitor hashtags like `#3DGS`, `#DynamicViewSynthesis`, and `#GaussianSplatting` for new preprints and discussions.
+- **GitHub**: Search topics `"dynamic-gaussian-splatting"` or `"4d-gaussian-splatting"` to discover official code releases and community re-implementations.
+- **arXiv**: Subscribe to the `cs.CV` and `cs.GR` categories for daily paper alerts. Many dynamic 3DGS papers first appear here.
+
+---
+
+## ☕ Contributing
+
+If you’d like to add a researcher or lab that fits the **dynamic 3DGS scene reconstruction** scope, please open a pull request. Ensure the entry includes:
+
+- Researcher name and affiliation
+- Google Scholar link
+- Personal / lab page (if available)
+- X / Twitter handle (if public)
+
+---
+
+## 📄 License
+
+This list is provided for educational and research purposes. Please respect the privacy and sharing policies of each linked profile.
+
+---
+*Maintained by [your-username]. Last updated: April 2026.*
