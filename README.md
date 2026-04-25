@@ -26,10 +26,10 @@
 | Toronto AI Lab | NVIDIA | [research.nvidia.com/labs/toronto-ai](https://research.nvidia.com/labs/toronto-ai/) | Jiawei Ren, Jiahui Huang, Kevin Xie |
 | NVIDIA Research (Santa Clara) | NVIDIA | [nvidia.com/en-us/research](https://www.nvidia.com/en-us/research/) | Chen-Hsuan Lin, Yoni Kasten, Matthew Chan |
 | Intelligent Creation Lab | ByteDance | [ailab.bytedance.com](https://ailab.bytedance.com) | Zhuo Su, Hongyi Xu |
-| Visual Computing & AI Lab | Technical University of Munich | [niessnerlab.org](https://www.niessnerlab.org) | Matthias Nießner, Jiapeng Tang, Shenhan Qian |
+| Visual Computing & AI Lab | Technical University of Munich | [niessnerlab.org](https://www.niessnerlab.org) | Matthias Nießner|
 | Brown Visual Computing Group | Brown University | [jamestompkin.com](https://jamestompkin.com) | James Tompkin |
-| Cornell Computer Vision Lab | Cornell University | [cs.cornell.edu/graphics](https://www.cs.cornell.edu/graphics/) | Noah Snavely, Qianqian Wang |
-| Graphics, Vision & Video Group | MPI for Informatics | [mpi-inf.mpg.de](https://www.mpi-inf.mpg.de) | Thomas Wimmer, Christian Theobalt |
+| Cornell Computer Vision Lab | Cornell University | [cs.cornell.edu/graphics](https://www.cs.cornell.edu/graphics/) | Noah Snavely|
+| Graphics, Vision & Video Group | MPI for Informatics | [mpi-inf.mpg.de](https://www.mpi-inf.mpg.de) | Christian Theobalt |
 
 ---
 
