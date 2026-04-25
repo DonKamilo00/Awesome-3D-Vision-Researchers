@@ -68,4 +68,4 @@ If you’d like to add a researcher or lab that fits the **dynamic 3DGS scene re
 This list is provided for educational and research purposes. Please respect the privacy and sharing policies of each linked profile.
 
 ---
-*Maintained by [your-username]. Last updated: April 2026.*
+*Maintained by [DonKamilo00]. Last updated: April 2026.*
