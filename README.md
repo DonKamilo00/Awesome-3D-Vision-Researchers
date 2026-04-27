@@ -8,6 +8,7 @@
 ## 🧑‍🔬 Individual Researchers
 
 ### 🎯 Direct Dynamic 3DGS Researchers
+*(Group leaders, professors, and senior scientists with explicit dynamic 3DGS publications)*
 
 | Name | Affiliation | Google Scholar | Personal Page | X (Twitter) |
 |------|-------------|----------------|---------------|-------------|
@@ -26,14 +27,32 @@
 | Hongyi Xu | ByteDance | [Profile](https://scholar.google.com/citations?user=RhFbHsoAAAAJ) | [AMiner Profile](https://www.aminer.cn/profile/h-xu/562d4c0a45cedb3398db60b7) | – |
 | James Tompkin | Brown University | [Profile](https://scholar.google.com/citations?user=2J6n2ZcAAAAJ) | [jamestompkin.com](https://jamestompkin.com) | [@jamestompkin](https://twitter.com/jamestompkin) |
 | Noah Snavely | Cornell Tech / Google | [Profile](https://scholar.google.com/citations?user=3Fxv8OIAAAAJ) | [cs.cornell.edu/~snavely](https://www.cs.cornell.edu/~snavely/) | – |
-| Qianqian Wang | Cornell Tech | [Profile](https://scholar.google.com/citations?user=-_9zR5gAAAAJ) | [qianqianwang.github.io](https://qianqianwang.github.io) | – |
+| Qianqian Wang | Harvard University (prev. Cornell Tech) | [Profile](https://scholar.google.com/citations?user=-_9zR5gAAAAJ) | [qianqianwang.github.io](https://qianqianwang.github.io) | – |
 | Shenhan Qian | TUM | [Profile](https://scholar.google.com/citations?user=Yv29zbsAAAAJ) | [shenhanqian.github.io](https://shenhanqian.github.io) | – |
+| Gordon Wetzstein | Stanford University | [Profile](https://scholar.google.com/citations?user=C8vpxI8AAAAJ) | [stanford.edu](https://stanford.edu/~gordonwz/) | – |
+| Sida Peng | Zhejiang University | [Search](https://scholar.google.com/scholar?q=%22Sida+Peng%22+Zhejiang) | [pengsida.net](https://pengsida.net/) | – |
+| Xiaogang Jin | Zhejiang University | [Profile](https://scholar.google.com/citations?user=2B7ZmEMAAAAJ) | [cad.zju.edu.cn](http://www.cad.zju.edu.cn/home/jin/) | – |
+| Marc Habermann | MPI Informatics | [Search](https://scholar.google.com/scholar?q=%22Marc+Habermann%22+MPI) | [people.mpi-inf.mpg.de/~mhaberma/](https://people.mpi-inf.mpg.de/~mhaberma/) | – |
+| Zan Gojcic | NVIDIA | [Search](https://scholar.google.com/scholar?q=%22Zan+Gojcic%22+NVIDIA) | [nvidia.com](https://research.nvidia.com/person/zan-gojcic) | – |
 
 ### 🔗 Related 3DGS Researchers (Foundations, Geometry, Static Scenes)
 
 | Name | Affiliation | Google Scholar | Personal Page | X (Twitter) |
 |------|-------------|----------------|---------------|-------------|
 | Wenping Wang | Texas A&M University | [Search](https://scholar.google.com/scholar?q=%22Wenping+Wang%22+Texas+A%26M) | [tamu.edu](https://people.engr.tamu.edu/wenping/index.html) | – |
+| Kun Zhou | Zhejiang University | [Profile](https://scholar.google.com/citations?user=6S9Rc6cAAAAJ) | [cad.zju.edu.cn](http://www.cad.zju.edu.cn/home/kunzhou/) | – |
+| Richard Newcombe | Meta Reality Labs (VP Research) | [Search](https://scholar.google.com/scholar?q=%22Richard+Newcombe%22+Meta) | – | – |
+| Mingsong Dou | NVIDIA (Research Scientist) | [Search](https://scholar.google.com/scholar?q=%22Mingsong+Dou%22+NVIDIA) | – | – |
+
+### 🟢 Volumetric Video Streaming & Compression Leaders
+*(Senior researchers leading dynamic volumetric video coding and streaming—often overlapping with 3DGS)*
+
+| Name | Affiliation | Google Scholar | Personal Page | X (Twitter) |
+|------|-------------|----------------|---------------|-------------|
+| Lan Xu | Shanghai Jiao Tong University | [Search](https://scholar.google.com/scholar?q=%22Lan+Xu%22+volumetric) | [sjtu.edu.cn](https://dmcv.sjtu.edu.cn/people/lanxu/) | – |
+| Li Song | Shanghai Jiao Tong University | [Search](https://scholar.google.com/scholar?q=%22Li+Song%22+SJTU+video) | – | – |
+| Xiaowei Zhou | Zhejiang University | [Profile](https://scholar.google.com/citations?user=0Jg-9WcAAAAJ) | [xzhou.org](https://xzhou.org) | – |
+| Tinne Tuytelaars | KU Leuven | [Profile](https://scholar.google.com/citations?user=4VH8N1gAAAAJ) | [esat.kuleuven.be](https://homes.esat.kuleuven.be/~tuytelaa/) | – |
 
 ---
 
@@ -42,21 +61,25 @@
 | Lab / Team | Institution | Website | Key Researchers |
 |------------|-------------|---------|-----------------|
 | GraphDeco | INRIA | [team.inria.fr/graphdeco](https://team.inria.fr/graphdeco/) | George Drettakis, Bernhard Kerbl |
-| Meta Reality Labs (Pittsburgh) | Meta | [zollhoefer.com](https://zollhoefer.com) | Michael Zollhöfer |
+| Meta Reality Labs (Pittsburgh) | Meta | [zollhoefer.com](https://zollhoefer.com) | Michael Zollhöfer, Richard Newcombe |
 | Peking University Vision Lab | Peking University | [pku.edu.cn](http://www.cis.pku.edu.cn/faculty/vision/zeng/) | Gang Zeng |
 | CVG (Computer Vision Group) | TU Munich | [cvg.cit.tum.de](https://cvg.cit.tum.de) | Daniel Cremers |
 | NVIDIA Research Taiwan | NVIDIA | [nvidia.com](https://research.nvidia.com/labs/twn/) | Yu‑Lun Liu |
 | Autonomous Vision Group | University of Tübingen | [cvlibs.net](https://cvlibs.net) | Andreas Geiger |
 | Virtual Humans | MPI‑Inf / University of Tübingen | [virtualhumans.mpi-inf.mpg.de](https://virtualhumans.mpi-inf.mpg.de/) | Gerard Pons‑Moll |
 | Zhejiang University CV Lab | Zhejiang University | [yiyiliao.github.io](https://yiyiliao.github.io) | Yiyi Liao |
+| ZJU 3DV Lab | Zhejiang University | [zju3dv.github.io](https://zju3dv.github.io) | Xiaogang Jin, Sida Peng |
+| SJTU Media Lab | Shanghai Jiao Tong University | [dmcv.sjtu.edu.cn](https://dmcv.sjtu.edu.cn) | Lan Xu, Li Song |
 | Theia Lab | Simon Fraser University | [theialab.ca](https://theialab.ca) | Andrea Tagliasacchi |
 | Toronto AI Lab | NVIDIA | [research.nvidia.com/labs/toronto-ai](https://research.nvidia.com/labs/toronto-ai/) | Jiawei Ren, Jiahui Huang, Kevin Xie |
 | NVIDIA Research (Santa Clara) | NVIDIA | [nvidia.com/en-us/research](https://www.nvidia.com/en-us/research/) | Chen‑Hsuan Lin, Yoni Kasten, Matthew Chan |
+| NVIDIA Spatial Intelligence Lab | NVIDIA | [nvidia.com](https://research.nvidia.com/labs/sil/) | Ruilong Li, Zan Gojcic, Mingsong Dou |
 | Intelligent Creation Lab | ByteDance | [ailab.bytedance.com](https://ailab.bytedance.com) | Zhuo Su, Hongyi Xu |
 | Visual Computing & AI Lab | TU Munich | [niessnerlab.org](https://www.niessnerlab.org) | Matthias Nießner |
 | Brown Visual Computing Group | Brown University | [jamestompkin.com](https://jamestompkin.com) | James Tompkin |
 | Cornell Computer Vision Lab | Cornell University | [cs.cornell.edu/graphics](https://www.cs.cornell.edu/graphics/) | Noah Snavely |
-| Graphics, Vision & Video Group | MPI for Informatics | [mpi-inf.mpg.de](https://www.mpi-inf.mpg.de) | Christian Theobalt |
+| Graphics, Vision & Video Group | MPI for Informatics | [mpi-inf.mpg.de](https://www.mpi-inf.mpg.de) | Christian Theobalt, Marc Habermann |
+| NAVER LABS Europe | NAVER | [naverlabs.com](https://www.naverlabs.com/en/locations/europe) | – |
 
 ---
 
