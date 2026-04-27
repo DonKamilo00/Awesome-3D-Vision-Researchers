@@ -33,7 +33,6 @@
 | Marc Habermann | MPI Informatics | [Search](https://scholar.google.com/scholar?q=%22Marc+Habermann%22+MPI+Informatics) | [mpi-inf.mpg.de](https://people.mpi-inf.mpg.de/~mhaberma/) | – |
 | Zan Gojcic | NVIDIA | [Search](https://scholar.google.com/scholar?q=%22Zan+Gojcic%22+NVIDIA) | [nvidia.com](https://research.nvidia.com/person/zan-gojcic) | – |
 
-> ⚠️ **Note:** Jiapeng Tang & Shenhan Qian (both TUM) have authored key dynamic 3DGS papers (D3GA, GaussianAvatars) but are early-career researchers (PhD students/postdocs), not yet group leaders. They are excluded from the supervisor list above but are worth tracking for their impactful work.
 
 ### 🔗 Related 3DGS Researchers (Foundations, Geometry, Static Scenes)
 
