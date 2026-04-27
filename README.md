@@ -34,7 +34,7 @@
 | Zan Gojcic | NVIDIA (Spatial Intelligence Lab) | [Search](https://scholar.google.com/scholar?q=%22Zan+Gojcic%22+NVIDIA) | [NVIDIA](https://research.nvidia.com) | – |
 | Lan Xu | ShanghaiTech University | [Profile](https://scholar.google.com/citations?user=aPS5pJkAAAAJ) | [xu-lan.com](http://xu-lan.com) | – |
 
-> ⚠️ **Note:** Jiapeng Tang & Shenhan Qian (both TUM) have authored key dynamic 3DGS papers but are **PhD students**, not yet group leaders. They are excluded from the supervisor list above but worth tracking:
+
 > - Jiapeng Tang: [tangjiapeng.github.io](https://tangjiapeng.github.io) – D3GA, GaussianAvatars
 > - Shenhan Qian: [shenhanqian.github.io](https://shenhanqian.github.io) – Flow4R, DynSUP, GaussianAvatars
 
