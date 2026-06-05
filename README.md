@@ -21,6 +21,8 @@
 | Gerard Pons‑Moll | University of Tübingen / MPI‑Inf | [Search](https://scholar.google.com/scholar?q=%22Gerard+Pons-Moll%22+MPI) | [mpi-inf.mpg.de](https://virtualhumans.mpi-inf.mpg.de/) | – |
 | Yiyi Liao | Zhejiang University | [Search](https://scholar.google.com/scholar?q=%22Yiyi+Liao%22+Zhejiang+University) | [yiyiliao.github.io](https://yiyiliao.github.io) | – |
 | Andrea Tagliasacchi | Simon Fraser University | [Search](https://scholar.google.com/scholar?q=%22Andrea+Tagliasacchi%22+SFU) | [theialab.ca](https://theialab.ca) | @AndreaTaglia |
+| Matthias Zwicker | University of Maryland, College Park | [Profile](https://scholar.google.com/citations?user=Y-g6Y_EAAAAJ) | [cs.umd.edu](https://www.cs.umd.edu/~zwicker/) | @m_zwicker |
+| Jaesik Park | Seoul National University | [Profile](https://scholar.google.com/citations?user=vXmN_Y8AAAAJ) | [jaesik.info](http://jaesik.info/) | – |
 | Jiawei Ren | NVIDIA (Spatial Intelligence Lab) | [Search](https://scholar.google.com/scholar?q=%22Jiawei+Ren%22+NVIDIA+3D) | [jiawei-ren.github.io](https://jiawei-ren.github.io) | [@jiawei_ren](https://twitter.com/jiawei_ren) |
 | Zhuo Su | ByteDance | [Search](https://scholar.google.com/scholar?q=%22Zhuo+Su%22+ByteDance) | – | – |
 | Hongyi Xu | ByteDance | [Search](https://scholar.google.com/scholar?q=%22Hongyi+Xu%22+ByteDance+3D) | – | – |
@@ -44,6 +46,7 @@
 |------|-------------|----------------|---------------|-------------|
 | Wenping Wang | Texas A&M University | [Search](https://scholar.google.com/scholar?q=%22Wenping+Wang%22+Texas+A%26M) | [Search](https://scholar.google.com/scholar?q=%22Wenping+Wang%22+Texas+A%26M) | – |
 | Kun Zhou | Zhejiang University | [Search](https://scholar.google.com/scholar?q=%22Kun+Zhou%22+Zhejiang+CAD) | [zju.edu.cn](https://person.zju.edu.cn/kunzhou) | – |
+| Yu-Shen Liu | Tsinghua University | [Profile](https://scholar.google.com/citations?user=T8G2-t0AAAAJ) | [tsinghua.edu.cn](https://www.thss.tsinghua.edu.cn/info/1084/2072.htm) | – |
 | Richard Newcombe | Meta Reality Labs (VP Research) | [Search](https://scholar.google.com/scholar?q=%22Richard+Newcombe%22+Meta+SLAM) | – | – |
 | Mingsong Dou | NVIDIA | [Search](https://scholar.google.com/scholar?q=%22Mingsong+Dou%22+NVIDIA) | – | – |
 
